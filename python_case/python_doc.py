@@ -1,0 +1,1 @@
+#import class_nameimport copyimport subprocessdir(copy)print subprocess.__doc__

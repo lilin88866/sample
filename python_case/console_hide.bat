@@ -1,0 +1,1 @@
+python -c "import ctypes; ctypes.windll.user32.ShowWindow(1386322, 0)"

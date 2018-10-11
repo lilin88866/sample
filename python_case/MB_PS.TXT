@@ -1,0 +1,40 @@
+[
+    {
+        "bl":"LTE", text if "bl" is used in the PCI data
+        "product" :"PS",
+        "branch": "MB_PS_REL",
+        "type" : "scbuild",
+        "buildid" : "MB_PS_REL_2017_05_008",
+        "test_hierarchy":"TDD;ULPHY",
+        "total_count" : 200, 
+        "start" : 1436965447, 
+        "planned_count" : 76,
+        "pass_count" : 45,
+        "fail_count" : 15,
+        "feature_tested" : 3,
+        "end" : 1436972610,  
+        "result_url" : "http://XXXXX",
+        "provider_email":"XXX@nokia.com;YYY@nokia.com",
+        "pass_criteria":1,
+        "exec_frequency":"buildly",
+        "cases":                                        # Optional, define test case levle test result under 
+        [
+            {
+                "name": "SWDL_SEM",                     # Mandatory, Test Case Description
+                                                        # All test case information will be save in  pci_ testcase
+                "weight":100,                           # Optional (0 or 100), default is 100
+                                                           0 means the case executed result is not considered. Such as ENV preparation.
+                "start": 1436965447,                    # Mandatory, the case executing time
+                "end": 1436972610,                      # Mandatory, the case executed time
+                "result": "PASS" or "FAIL",             # Mandatory, the case executed result
+                "url": "XXX"                            # Mandatory, the case the link of jenkins job url,
+                "featureid": ["LTE1000","LTE2000"],     # Optional, feature list
+                     # Optional, yes or no : default: no
+            },
+            ...                                         # Optional, more test case result
+        ]
+    }
+    ...
+]
+
+curl --noproxy "localhost,127.0.0.1,10.140.0.0/16,china.nsn-net.net" -X POST -H "Content-Type: application/json" -d @json_pci.txt http://coop.china.nsn-net.net:3000/api/pci/data -v || exit 1
