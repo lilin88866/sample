@@ -1,0 +1,907 @@
+601	TM201_5UE_NORMALMODE_4PIPE	4	Regression	Pucch SCT	l86zhang	History	13wk36
+2769	TC_MT_CHANNELIZER_CALI_4PIPE_PERCORE_20M_CASE	4	Regression	Channelizer MT	b2li	History	11wk51
+2770	TC_MT_CHANNELIZER_SRS_4PIPE_PERCORE_20M_CASE	4	Regression	Channelizer MT	b2li	History	11wk51
+2771	TC_MT_CHANNELIZER_CALI_8PIPE_PERCORE_20M_CASE	8	Regression	Channelizer MT	b2li	History	11wk52
+2772	TC_MT_CHANNELIZER_SRS_8PIPE_PERCORE_20M_CASE	8	Regression	Channelizer MT	b2li	History	11wk52
+2773	TC_MT_CHANNELIZER_RACH_4PIPE_PERCORE_F0_20M_CASE_12	4	Regression	Channelizer MT	b2li	History	12wk03
+2774	TC_MT_CHANNELIZER_RACH_4PIPE_PERCORE_F1_20M_CASE_25	4	Regression	Channelizer MT	b2li	History	12wk03
+2775	TC_MT_CHANNELIZER_RACH_4PIPE_PERCORE_F2_20M_CASE_35	4	Regression	Channelizer MT	b2li	History	12wk03
+2776	TC_MT_CHANNELIZER_RACH_4PIPE_PERCORE_F4_20M_CASE_57	4	Regression	Channelizer MT	b2li	History	12wk04
+2777	TC_MT_CHANNELIZER_RACH_4PIPE_PERCORE_F4_20M_CASE_52	4	Regression	Channelizer MT	b2li	History	12wk04
+2778	TC_MT_CHANNELIZER_SNAPSHOT_4PIPE_20M_CASE	4	Regression	Channelizer MT	b2li	History	12wk03
+2779	TC_MT_CHANNELIZER_SNAPSHOT_8PIPE_20M_CASE	8	Regression	Channelizer MT	b2li	History	12wk04
+2780	MT_Decoder_SuperCell_8Ues_Mix_Case4	2	Regression	Decoder MT	shazhang	History	12wk12
+2781	MT_Decoder_SuperCell_8Ues_Mix_Case3	2	Regression	Decoder MT	shazhang	History	12wk12
+2782	MT_Decoder_SuperCell_4Ues_Data_Case2	2	Regression	Decoder MT	shazhang	History	12wk12
+2783	MT_Decoder_SuperCell_4Ues_Data_Case1	2	Regression	Decoder MT	shazhang	History	12wk12
+2784	TC_MT_CHANNELIZER_SNAPSHOT_4PIPE_20M_CASE_Ring	4	Regression	Channelizer MT	b2li	History	12wk06
+2785	TC_MT_CHANNELIZER_SNAPSHOT_8PIPE_20M_CASE_Ring	8	Regression	Channelizer MT	b2li	History	12wk06
+2786	TM1201_4PIPE	4	Regression	Channelizer SCT	b2li	History	12wk08
+2787	TM1202_4PIPE	4	Regression	Channelizer SCT	b2li	History	12wk08
+2788	TM303_Prach_4PIPE	4	Regression	Prach SCT	b2li	History	12wk08
+2789	TM320_Prach_4PIPE	4	Regression	Prach SCT	b2li	History	12wk07
+2790	TM301_Prach_F4_n9p5_4PIPE	4	Regression	Prach SCT	b2li	History	12wk07
+2791	TM301_Prach_F4_10dB_4PIPE	4	Regression	Prach SCT	b2li	History	12wk08
+2792	TM301_Prach_F4_30dB_4PIPE	4	Regression	Prach SCT	b2li	History	12wk08
+2793	TM203_15UE_NORMALMODE_4PIPE	4	Regression	Pucch SCT	l86zhang	History	12wk09
+2794	TM211_5UE_10M_NORMALMODE_4PIPE	4	Regression	Pucch SCT	l86zhang	History	12wk09
+2795	TM208_ClosedLoopMIMO_4PIPE	4	Regression	Pucch SCT	l86zhang	History	12wk09
+2796	TM209_ClosedLoopMIMO_4PIPE	4	Regression	Pucch SCT	l86zhang	History	12wk09
+2797	TM210_ClosedLoopMIMO_4PIPE	4	Regression	Pucch SCT	l86zhang	History	12wk09
+2798	TM701_4PIPE	4	Regression	Pucch SCT	l86zhang	History	12wk09
+2799	TM702_4PIPE	4	Regression	Pucch SCT	l86zhang	History	12wk09
+2800	TM703_4PIPE	4	Regression	Pucch SCT	l86zhang	History	12wk09
+2801	TM704_4PIPE	4	Regression	Pucch SCT	l86zhang	History	12wk09
+2802	TM705_4PIPE	4	Regression	Pucch SCT	l86zhang	History	12wk09
+2803	TM212_15UE_DRXCQI_4PIPE	4	Regression	Pucch SCT	l86zhang	History	12wk09
+2805	TC_MT_PRACH_RECEIVER_DATA_FLOW_4PIPE	4	Regression	PrachReceiver MT	qifeng	History	12wk08
+2806	TC_MT_PRACH_RECEIVER_LATENCY_TEST_4PIPE	4	Regression	PrachReceiver MT	qifeng	History	12wk08
+2807	TC_MT_PRACH_PERFORMANCE_F0_AWGN_4PIPE	4	Regression	PrachReceiver MT	qifeng	History	12wk08
+2808	TC_MT_PRACH_PERFORMANCE_F0_ETU_4PIPE	4	Regression	PrachReceiver MT	qifeng	History	12wk08
+2809	TC_MT_PRACH_PERFORMANCE_F1_AWGN_4PIPE	4	Regression	PrachReceiver MT	qifeng	History	12wk08
+2810	TC_MT_PRACH_PERFORMANCE_F1_ETU_4PIPE	4	Regression	PrachReceiver MT	qifeng	History	12wk08
+2811	TC_MT_PRACH_CHANNELIZER_RECEIVER_F1_4PIPE	4	Regression	PrachReceiver MT	qifeng	History	12wk08
+2812	TC_MT_PRACH_CHANNELIZER_RECEIVER_F0_CONSEC_TTI_4PIPE	4	Regression	PrachReceiver MT	qifeng	History	12wk08
+2813	TC_MT_PRACH_PERFORMANCE_F0_AWGN_4PIPE_LOW_SNR	4	Regression	PrachReceiver MT	qifeng	History	12wk08
+2814	TC_MT_PRACH_PERFORMANCE_F0_ETU_4PIPE_LOW_SNR	4	Regression	PrachReceiver MT	qifeng	History	12wk08
+2815	TC_MT_PRACH_PERFORMANCE_F1_AWGN_4PIPE_LOW_SNR	4	Regression	PrachReceiver MT	qifeng	History	12wk08
+2816	TC_MT_PRACH_PERFORMANCE_F1_ETU_4PIPE_LOW_SNR	4	Regression	PrachReceiver MT	qifeng	History	12wk08
+2817	TC_MT_PRACH_PERFORMANCE_F0_20dB_4PIPE	4	Regression	PrachReceiver MT	qifeng	History	12wk08
+2818	TC_MT_PRACH_PERFORMANCE_F0_50dB_4PIPE	4	Regression	PrachReceiver MT	qifeng	History	12wk08
+2819	TC_MT_PRACH_CHANNELIZER_RECEIVER_F1_10MHZ_4PIPE	4	Regression	PrachReceiver MT	qifeng	History	12wk08
+2820	TC_MT_PRACH_CHANNELIZER_RECEIVER_F0_4PIPE	4	Regression	PrachReceiver MT	qifeng	History	12wk08
+2821	TC_MT_PRACH_CHANNELIZER_RECEIVER_F0_10MHZ_4PIPE	4	Regression	PrachReceiver MT	qifeng	History	12wk08
+2822	TC_MT_SRS_CASE_4PIPE_1UE_96PRB_Special	4	Regression	SrsReceiver MT	zhujiang	History	12wk09
+2823	TC_MT_SRS_CASE_4PIPE_1UE_96PRB_AWGN	4	Regression	SrsReceiver MT	zhujiang	History	12wk09
+2824	TC_MT_SRS_CASE_4PIPE_1UE_96PRB_Special_EPA5	4	Regression	SrsReceiver MT	zhujiang	History	12wk09
+2825	TC_MT_SRS_CASE_4PIPE_1UE_96PRB_Special_EVA70	4	Regression	SrsReceiver MT	zhujiang	History	12wk09
+2826	TC_MT_SRS_CASE_4PIPE_1UE_4PRB_Special	4	Regression	SrsReceiver MT	zhujiang	History	12wk09
+2827	TC_MT_SRS_CASE_4PIPE_1UE_48PRB_Special_with_calibration	4	Regression	SrsReceiver MT	zhujiang	History	12wk09
+2828	TC_MT_SRS_CASE_4PIPE_1UE_48PRB_Special_10M	4	Regression	SrsReceiver MT	zhujiang	History	12wk09
+2829	TC_MT_SRS_CASE_4PIPE_3UE_4PRB	4	Regression	SrsReceiver MT	zhujiang	History	12wk09
+2830	TC_MT_SRS_CASE_4PIPE_3UE_4PRB_Special	4	Regression	SrsReceiver MT	zhujiang	History	12wk09
+2831	TC_MT_SRS_CASE_4PIPE_3UE_48PRB	4	Regression	SrsReceiver MT	zhujiang	History	12wk09
+2832	TC_MT_SRS_CASE_4PIPE_3UE_48PRB_Special	4	Regression	SrsReceiver MT	zhujiang	History	12wk09
+2833	TC_MT_SRS_CASE_CPLANE_CELLSETUP_NORMAL_001	8	Regression	SrsReceiver MT	zhujiang	History	12wk09
+2834	TC_MT_SRS_CASE_CPLANE_CELLSETUP_ABNORMAL_001	8	Regression	SrsReceiver MT	zhujiang	History	12wk09
+2835	TC_MT_SRS_CASE_CPLANE_CELLSETUP_ABNORMAL_002	8	Regression	SrsReceiver MT	zhujiang	History	12wk09
+2836	TC_MT_SRS_CASE_CPLANE_CELLSETUP_ABNORMAL_003	8	Regression	SrsReceiver MT	zhujiang	History	12wk09
+2837	TC_MT_SRS_CASE_CPLANE_CELLSETUP_ABNORMAL_004	8	Regression	SrsReceiver MT	zhujiang	History	12wk09
+2838	TC_MT_SRS_CASE_CPLANE_CELLSETUP_ABNORMAL_005	8	Regression	SrsReceiver MT	zhujiang	History	12wk09
+2839	TC_MT_SRS_CASE_CPLANE_CELLSETUP_ABNORMAL_006	8	Regression	SrsReceiver MT	zhujiang	History	12wk09
+2840	TC_MT_SRS_CASE_CPLANE_CELLSETUP_ABNORMAL_007	8	Regression	SrsReceiver MT	zhujiang	History	12wk09
+2841	TC_MT_SRS_CASE_CPLANE_CELLDELETE_ABNORMAL_001	8	Regression	SrsReceiver MT	zhujiang	History	12wk09
+2842	TC_MT_SRS_CASE_CPLANE_RCVREQ_ABNORMAL_001	8	Regression	SrsReceiver MT	zhujiang	History	12wk09
+2843	TC_MT_SRS_CASE_CPLANE_RCVREQ_ABNORMAL_002	8	Regression	SrsReceiver MT	zhujiang	History	12wk09
+2844	TC_MT_SRS_CASE_CPLANE_RCVREQ_ABNORMAL_003	8	Regression	SrsReceiver MT	zhujiang	History	12wk09
+2845	TC_MT_SRS_CASE_CPLANE_RCVREQ_ABNORMAL_004	8	Regression	SrsReceiver MT	zhujiang	History	12wk09
+2846	TC_MT_SRS_CASE_CPLANE_RCVREQ_ABNORMAL_005	8	Regression	SrsReceiver MT	zhujiang	History	12wk09
+2847	TC_MT_SRS_CASE_CPLANE_RCVREQ_ABNORMAL_006	8	Regression	SrsReceiver MT	zhujiang	History	12wk09
+2848	TC_MT_SRS_CASE_CPLANE_RCVREQ_ABNORMAL_007	8	Regression	SrsReceiver MT	zhujiang	History	12wk09
+2849	TC_MT_SRS_CASE_CPLANE_RCVREQ_ABNORMAL_008	8	Regression	SrsReceiver MT	zhujiang	History	12wk09
+2850	TC_MT_SRS_CASE_CPLANE_RCVREQ_ABNORMAL_009	8	Regression	SrsReceiver MT	zhujiang	History	12wk09
+2851	TC_MT_SRS_CASE_CPLANE_RCVREQ_ABNORMAL_010	8	Regression	SrsReceiver MT	zhujiang	History	12wk09
+2852	TC_MT_SRS_CASE_CPLANE_RCVREQ_ABNORMAL_011	8	Regression	SrsReceiver MT	zhujiang	History	12wk09
+2853	TC_MT_SRS_CASE_CPLANE_RCVREQ_ABNORMAL_012	8	Regression	SrsReceiver MT	zhujiang	History	12wk09
+2854	TC_MT_SRS_CASE_CPLANE_RCVREQ_CHANRESP_ABNORMAL_001	8	Regression	SrsReceiver MT	zhujiang	History	12wk09
+2855	TC_MT_SRS_CASE_CPLANE_RCVREQ_CHANRESP_ABNORMAL_002	8	Regression	SrsReceiver MT	zhujiang	History	12wk09
+2856	TC_MT_SRS_CASE_CPLANE_RCVREQ_CHANRESP_ABNORMAL_003	8	Regression	SrsReceiver MT	zhujiang	History	12wk09
+2857	TC_MT_SRS_CASE_CPLANE_RCVREQ_CHANRESP_ABNORMAL_004	8	Regression	SrsReceiver MT	zhujiang	History	12wk09
+2858	TC_MT_SRS_CASE_CPLANE_RCVREQ_CHANRESP_ABNORMAL_005	8	Regression	SrsReceiver MT	zhujiang	History	12wk09
+2859	MT_Decoder_Data_Tcp_TestCase1	2	Regression	Decoder MT	shazhang	History	12wk08
+2860	MT_Decoder_Data_Tcp_TestCase2	2	Regression	Decoder MT	shazhang	History	12wk08
+2861	MT_Decoder_Data_Tcp_TestCase3	2	Regression	Decoder MT	shazhang	History	12wk08
+2862	MT_Decoder_Data_Tcp_TestCase4	2	Regression	Decoder MT	shazhang	History	12wk08
+2863	MT_Decoder_Data_Tcp_TestCase5	2	Regression	Decoder MT	shazhang	History	12wk08
+2864	MT_Decoder_Data_Tcp_TestCase6	2	Regression	Decoder MT	shazhang	History	12wk08
+2865	MT_Decoder_Data_Tcp_TestCase7	2	Regression	Decoder MT	shazhang	History	12wk08
+2866	MT_Decoder_Data_Tcp_TestCase8	2	Regression	Decoder MT	shazhang	History	12wk08
+2867	MT_Decoder_Data_Tcp_TestCase9	2	Regression	Decoder MT	shazhang	History	12wk08
+2868	MT_Decoder_Data_Tcp_TestCase10	2	Regression	Decoder MT	shazhang	History	12wk08
+2869	MT_Decoder_Data_Tcp_TestCase11	2	Regression	Decoder MT	shazhang	History	12wk08
+2870	MT_Decoder_Data_Tcp_TestCase12	2	Regression	Decoder MT	shazhang	History	12wk08
+2871	MT_Decoder_Data_Tcp_TestCase13	2	Regression	Decoder MT	shazhang	History	12wk08
+2872	MT_Decoder_Data_Tcp_TestCase14	2	Regression	Decoder MT	shazhang	History	12wk08
+2873	MT_Decoder_Data_Tcp_TestCase15	2	Regression	Decoder MT	shazhang	History	12wk08
+2874	MT_Decoder_Data_Tcp_TestCase16	2	Regression	Decoder MT	shazhang	History	12wk08
+2875	MT_Decoder_DataAckRi_Tcp_TestCase1	2	Regression	Decoder MT	shazhang	History	12wk08
+2876	MT_Decoder_DataAckRi_Tcp_TestCase2	2	Regression	Decoder MT	shazhang	History	12wk08
+2877	MT_Decoder_DataAckRi_Tcp_TestCase3	2	Regression	Decoder MT	shazhang	History	12wk08
+2878	MT_Decoder_DataCQI_TcpVcp_TestCase1	2	Regression	Decoder MT	shazhang	History	12wk08
+2879	MT_Decoder_DataCQI_TcpVcp_TestCase2	2	Regression	Decoder MT	shazhang	History	12wk08
+2880	MT_Decoder_DataCQI_TcpVcp_TestCase3	2	Regression	Decoder MT	shazhang	History	12wk08
+2881	MT_Decoder_CQI_Vcp_TestCase1	2	Regression	Decoder MT	shazhang	History	12wk08
+2882	MT_Decoder_CQI_Vcp_TestCase2	2	Regression	Decoder MT	shazhang	History	12wk08
+2883	MT_Decoder_CQI_Vcp_TestCase3	2	Regression	Decoder MT	shazhang	History	12wk08
+2884	MT_Decoder_CQI_Vcp_TestCase4	2	Regression	Decoder MT	shazhang	History	12wk08
+2885	MT_Decoder_SRS_Data_Tcp_TestCase1	2	Regression	Decoder MT	shazhang	History	12wk08
+2886	MT_Decoder_SRS_Data_Tcp_TestCase2	2	Regression	Decoder MT	shazhang	History	12wk08
+2887	MT_Decoder_SRS_Data_Tcp_TestCase3	2	Regression	Decoder MT	shazhang	History	12wk08
+2888	MT_Decoder_SRS_Data_Tcp_TestCase4	2	Regression	Decoder MT	shazhang	History	12wk08
+2889	MT_Decoder_SRS_Data_Tcp_TestCase5	2	Regression	Decoder MT	shazhang	History	12wk08
+2890	MT_Decoder_SRS_Data_Tcp_TestCase6	2	Regression	Decoder MT	shazhang	History	12wk08
+2891	MT_Decoder_SRS_Data_Tcp_TestCase7	2	Regression	Decoder MT	shazhang	History	12wk08
+2892	MT_Decoder_SRS_Data_Tcp_TestCase8	2	Regression	Decoder MT	shazhang	History	12wk08
+2893	MT_Decoder_SRS_DataAckRI_Tcp_TestCase1	2	Regression	Decoder MT	shazhang	History	12wk08
+2894	MT_Decoder_SRS_DataAckRI_Tcp_TestCase2	2	Regression	Decoder MT	shazhang	History	12wk08
+2895	MT_Decoder_SRS_DataCQI_TcpVcp_TestCase1	2	Regression	Decoder MT	shazhang	History	12wk08
+2896	MT_Decoder_SRS_DataCQI_TcpVcp_TestCase2	2	Regression	Decoder MT	shazhang	History	12wk08
+2897	MT_Decoder_SRS_DataCQI_TcpVcp_TestCase3	2	Regression	Decoder MT	shazhang	History	12wk08
+2898	MT_Decoder_SRS_CQI_Vcp_TestCase1	2	Regression	Decoder MT	shazhang	History	12wk08
+2899	MT_Decoder_SRS_CQI_Vcp_TestCase2	2	Regression	Decoder MT	shazhang	History	12wk08
+2900	MT_Decoder_dataCQI6144_TcpVcp_TestCase1	2	Regression	Decoder MT	shazhang	History	12wk08
+2901	MT_Decoder_Data_RSA_TestCase1	2	Regression	Decoder MT	shazhang	History	12wk08
+2902	MT_Decoder_Data_RSA_TestCase2	2	Regression	Decoder MT	shazhang	History	12wk08
+2903	MT_Decoder_Data64QAM_Tcp_TestCase	2	Regression	Decoder MT	shazhang	History	12wk08
+2904	MT_Decoder_HARQ_Case	2	Regression	Decoder MT	shazhang	History	12wk08
+2905	MT_Decoder_Data_RSA_TestCase3	2	Regression	Decoder MT	shazhang	History	12wk08
+2906	MT_Decoder_Bunding_Case	2	Regression	Decoder MT	shazhang	History	12wk08
+2907	MT_Decoder_MultiUe_Case_PR96308ESPE02	2	Regression	Decoder MT	shazhang	History	12wk08
+2908	TM120_PUSCH_EVA70_A48_8p6dB_4PIPE	4	Regression	Pusch SCT	shazhang	History	12wk09
+2909	TM120_PUSCH_EVA70_A37_n0p9dB_4PIPE	4	Regression	Pusch SCT	shazhang	History	12wk09
+2910	TM120_PUSCH_EVA5_A51_15p6dB_4PIPE	4	Regression	Pusch SCT	shazhang	History	12wk09
+2911	TM120_PUSCH_EVA5_A41_7p9dB_4PIPE	4	Regression	Pusch SCT	shazhang	History	12wk09
+2912	TM120_PUSCH_EVA5_A31_0p7dB_4PIPE	4	Regression	Pusch SCT	shazhang	History	12wk09
+2913	TM120_PUSCH_ETU300_A31_0p3dB_4PIPE	4	Regression	Pusch SCT	shazhang	History	12wk09
+2914	TM120_PUSCH_ETU70_A31_0p1dB_4PIPE	4	Regression	Pusch SCT	shazhang	History	12wk09
+2915	TM120_PUSCH_EPA5_A57_15p9dB_4PIPE	4	Regression	Pusch SCT	shazhang	History	12wk09
+2916	TM120_PUSCH_EPA5_A48_7p5dB_4PIPE	4	Regression	Pusch SCT	shazhang	History	12wk09
+2917	TM120_PUSCH_EPA5_A37_n1p5dB_4PIPE	4	Regression	Pusch SCT	shazhang	History	12wk09
+2919	TC_MT_PRACH_CHANNELIZER_RECEIVER_SUPERCELL_F0_4PIPE	4	Regression	PrachReceiver MT	qifeng	History	12wk13
+2920	TM1110_2u_SuperCell_Mixed_6Ant_4PIPE	4	Regression	Combined SCT	shazhang	History	12wk13
+2921	TM1110_2u_SuperCell_Mixed_8Ant_4PIPE	4	Regression	Combined SCT	shazhang	History	12wk13
+2922	TC_MT_CHANNELIZER_RACH_4PIPE_PERCORE_F0_20M_CASE_MINUS17dB	4	Regression	Channelizer MT	b2li	History	12wk10
+2923	TC_MT_CHANNELIZER_SC_PUCH_2PIPE_20M_CASE	2	Regression	Channelizer MT	b2li	History	12wk11
+2924	TC_MT_CHANNELIZER_SC_RACH_2PIPE_20M_CASE	2	Regression	Channelizer MT	b2li	History	12wk11
+2925	TC_MT_CHANNELIZER_SC_PUCH_4PIPE_20M_CASE	4	Regression	Channelizer MT	b2li	History	12wk11
+2926	TC_MT_CHANNELIZER_SC_RACH_4PIPE_20M_CASE	4	Regression	Channelizer MT	b2li	History	12wk11
+2927	TC_MT_CHANNELIZER_CTRL_FLOW_EXCEPTIONAL_2DSP_CASE_0	2	Regression	Channelizer MT	b2li	History	12wk12
+2928	TC_MT_CHANNELIZER_CTRL_FLOW_EXCEPTIONAL_2DSP_CASE_1	2	Regression	Channelizer MT	b2li	History	12wk12
+2929	TC_MT_CHANNELIZER_CTRL_FLOW_EXCEPTIONAL_2DSP_CASE_2	2	Regression	Channelizer MT	b2li	History	12wk12
+2930	TC_MT_CHANNELIZER_CTRL_FLOW_EXCEPTIONAL_2DSP_CASE_3	2	Regression	Channelizer MT	b2li	History	12wk12
+2931	TC_MT_CHANNELIZER_CTRL_FLOW_EXCEPTIONAL_2DSP_CASE_4	2	Regression	Channelizer MT	b2li	History	12wk12
+2932	TC_MT_CHANNELIZER_CTRL_FLOW_EXCEPTIONAL_2DSP_CASE_5	2	Regression	Channelizer MT	b2li	History	12wk12
+2933	TC_MT_CHANNELIZER_CTRL_FLOW_EXCEPTIONAL_2DSP_CASE_6	2	Regression	Channelizer MT	b2li	History	12wk12
+2934	TC_MT_CHANNELIZER_CTRL_FLOW_EXCEPTIONAL_2DSP_CASE_7	2	Regression	Channelizer MT	b2li	History	12wk12
+2935	TC_MT_CHANNELIZER_CTRL_FLOW_EXCEPTIONAL_4PIPE_CASE_0	4	Regression	Channelizer MT	b2li	History	12wk12
+2936	TC_MT_CHANNELIZER_CTRL_FLOW_EXCEPTIONAL_4PIPE_CASE_1	4	Regression	Channelizer MT	b2li	History	12wk12
+2937	TC_MT_CHANNELIZER_CTRL_FLOW_EXCEPTIONAL_4PIPE_CASE_2	4	Regression	Channelizer MT	b2li	History	12wk12
+2938	TC_MT_CHANNELIZER_CTRL_FLOW_EXCEPTIONAL_4PIPE_CASE_3	4	Regression	Channelizer MT	b2li	History	12wk12
+2939	TC_MT_CHANNELIZER_CTRL_FLOW_EXCEPTIONAL_4PIPE_CASE_4	4	Regression	Channelizer MT	b2li	History	12wk12
+2940	TC_MT_CHANNELIZER_CTRL_FLOW_EXCEPTIONAL_4PIPE_CASE_5	4	Regression	Channelizer MT	b2li	History	12wk12
+2941	TC_MT_CHANNELIZER_CTRL_FLOW_EXCEPTIONAL_4PIPE_CASE_6	4	Regression	Channelizer MT	b2li	History	12wk12
+2942	TC_MT_CHANNELIZER_CTRL_FLOW_EXCEPTIONAL_4PIPE_CASE_7	4	Regression	Channelizer MT	b2li	History	12wk12
+2943	TC_MT_SRS_CASE_4PIPE_3UE_16PRB_Multi_CS_Special	4	Regression	SrsReceiver MT	zhujiang	History	12wk12
+2944	TM708_Prach_20dB_4PIPE	4	Regression	Prach SCT	qifeng	History	12wk12
+2945	TM708_PRACH_F4_4PIPE	4	Regression	Prach SCT	qifeng	History	12wk12
+2946	TM1110_2u_Mixed_4PIPE	4	Regression	Combined SCT	l86zhang	History	12wk12
+2947	TM1110_Mixed_4PIPE	4	Regression	Combined SCT	shazhang	History	12wk12
+2948	TM1200_4PIPE	4	Regression	Channelizer SCT	b2li	History	12wk12
+2949	TM404_4PIPE	4	Regression	Srs SCT	l5zhou	History	12wk12
+2950	TM405_4PIPE	4	Regression	Srs SCT	l5zhou	History	12wk12
+2951	TM412_4PIPE	4	Regression	Srs SCT	l5zhou	History	12wk12
+2952	TM416_4PIPE	4	Regression	Srs SCT	l5zhou	History	12wk12
+2953	TM602_4PIPE	4	Regression	Srs SCT	l5zhou	History	12wk12
+2954	TM911_4PIPE	4	Regression	Prach SCT	qifeng	History	12wk12
+2955	TM912_4PIPE	4	Regression	Other SCT	b2li	History	12wk12
+2956	TM914_4PIPE	4	Regression	Prach SCT	qifeng	History	12wk12
+2957	TM603_8PIPE	8	Regression	Srs SCT	l5zhou	History	12wk17
+2958	TM409_8PIPE	8	Regression	Srs SCT	zhujiang	History	12wk17
+2959	TM403_8PIPE	8	Regression	Srs SCT	zhujiang	History	12wk17
+2960	TM417_30Degree_8PIPE	8	Regression	Srs SCT	zhujiang	History	12wk17
+2961	TM413_8PIPE	8	Regression	Srs SCT	zhujiang	History	12wk17
+2962	TM402_8PIPE	8	Regression	Srs SCT	zhujiang	History	12wk17
+2963	TM401_8PIPE	8	Regression	Srs SCT	zhujiang	History	12wk17
+2964	TM601_8PIPE	8	Regression	Srs SCT	zhujiang	History	12wk17
+2965	TM410_8PIPE	8	Regression	Srs SCT	zhujiang	History	12wk17
+2966	TM301_Prach_F4_50dB_8PIPE	8	Regression	Prach SCT	qifeng	History	12wk17
+2967	TM301_Prach_F4_30dB_8PIPE	8	Regression	Prach SCT	qifeng	History	12wk17
+2968	TC_MT_PRACH_CHANNELIZER_RECEIVER_F0_8PIPE	8	Regression	PrachReceiver MT	qifeng	History	12wk17
+2969	TC_MT_PRACH_CHANNELIZER_RECEIVER_F1_8PIPE	8	Regression	PrachReceiver MT	qifeng	History	12wk17
+2970	TC_MT_PRACH_CHANNELIZER_RECEIVER_F0_8PIPE_CONSEC_TTI	8	Regression	PrachReceiver MT	qifeng	History	12wk17
+2971	TC_MT_RX_CALIBRATION_RECEIVER	8	Regression	Calibration MT	qifeng	History	12wk17
+2973	TM302_Prach_8PIPE	8	Regression	Prach SCT	qifeng	History	12wk17
+2974	TM301_Prach_8PIPE	8	Regression	Prach SCT	qifeng	History	12wk17
+2975	TM301_Prach_F4_n9p5_8PIPE	8	Regression	Prach SCT	qifeng	History	12wk17
+2976	TM301_Prach_F4_n6p9_8PIPE	8	Regression	Prach SCT	qifeng	History	12wk17
+2977	TM301_Prach_F4_10dB_8PIPE	8	Regression	Prach SCT	qifeng	History	12wk17
+2978	TM708_Prach_20dB_8PIPE	8	Regression	Prach SCT	qifeng	History	12wk17
+2979	TM708_Prach_50dB_8PIPE	8	Regression	Prach SCT	qifeng	History	12wk17
+2980	TC_MT_PUCCH_RECEIVER_5UE_8PIPE	8	Regression	PucchReceiver MT	l86zhang	History	12wk17
+2981	TC_MT_PUCCH_RECEIVER_dspi_problem_8PIPE	8	Regression	PucchReceiver MT	l86zhang	History	12wk17
+2982	TC_MT_PUCCH_RECEIVER_15UE_8PIPE	8	Regression	PucchReceiver MT	l86zhang	History	12wk17
+2983	TC_MT_PUCCH_RECEIVER_1UE_EPA5_8PIPE	8	Regression	PucchReceiver MT	l86zhang	History	12wk17
+2984	TC_MT_PUCCH_RECEIVER_1UE_Format2b_8PIPE	8	Regression	PucchReceiver MT	l86zhang	History	12wk17
+2985	TC_MT_PUCCH_RECEIVER_15UE_SR_ACK_COM_8PIPE	8	Regression	PucchReceiver MT	l86zhang	History	12wk17
+2986	TC_MT_PUCCH_RECEIVER_15UE_DRXCQI_8PIPE	8	Regression	PucchReceiver MT	l86zhang	History	12wk17
+2987	TC_MT_PUCCH_RECEIVER_1UE_Format2BDTX_8PIPE	8	Regression	PucchReceiver MT	l86zhang	History	12wk17
+2988	TC_MT_PUCCH_RECEIVER_EXCEPT_2REQUEST_8PIPE	8	Regression	PucchReceiver MT	l86zhang	History	12wk17
+2989	TM201_5UE_NORMALMODE_8PIPE	8	Regression	Pucch SCT	l86zhang	History	13wk36
+2990	TM202_15UE_NORMALMODE_8PIPE	8	Regression	Pucch SCT	l86zhang	History	12wk17
+2991	TM203_15UE_NORMALMODE_8PIPE	8	Regression	Pucch SCT	l86zhang	History	12wk17
+2992	TM211_5UE_10M_NORMALMODE_8PIPE	8	Regression	Pucch SCT	l86zhang	History	12wk17
+2993	TM212_15UE_DRXCQI_8PIPE	8	Regression	Pucch SCT	l86zhang	History	12wk17
+2994	TM213_1UE_Format2b_DTX_8PIPE	8	Regression	Pucch SCT	l86zhang	History	12wk17
+2995	TC_MT_SRS_CASE_8PIPE_3UE_4PRB_Special_gap	8	Regression	SrsReceiver MT	l5zhou	History	12wk17
+2996	TC_MT_SRS_CASE_8PIPE_3UE_4PRB_Special	8	Regression	SrsReceiver MT	zhujiang	History	12wk17
+2997	TC_MT_SRS_CASE_8PIPE_3UE_96PRB_Special	8	Regression	SrsReceiver MT	zhujiang	History	12wk17
+2998	TC_MT_SRS_CASE_8PIPE_3UE_96PRB	8	Regression	SrsReceiver MT	zhujiang	History	12wk17
+2999	TC_MT_SRS_CASE_8PIPE_75UE_4PRB	8	Regression	SrsReceiver MT	zhujiang	History	12wk17
+3000	TC_MT_SRS_CASE_8PIPE_75UE_4PRB_Special	8	Regression	SrsReceiver MT	zhujiang	History	12wk17
+3001	TC_MT_SRS_CASE_8PIPE_1UE_4PRB	8	Regression	SrsReceiver MT	zhujiang	History	12wk17
+3002	TC_MT_SRS_CASE_8PIPE_1UE_4PRB_Special	8	Regression	SrsReceiver MT	zhujiang	History	12wk17
+3003	TC_MT_SRS_CASE_8PIPE_1UE_96PRB_Special_AWGN	8	Regression	SrsReceiver MT	zhujiang	History	12wk17
+3004	TC_MT_SRS_CASE_8PIPE_1UE_48PRB_10M_Special	8	Regression	SrsReceiver MT	zhujiang	History	12wk17
+3005	TC_MT_SRS_CASE_8PIPE_1UE_96PRB_Special_EPA5	8	Regression	SrsReceiver MT	zhujiang	History	12wk17
+3006	TC_MT_SRS_CASE_8PIPE_1UE_96PRB_Special_EVA70	8	Regression	SrsReceiver MT	zhujiang	History	12wk17
+3007	TC_MT_SRS_CASE_8PIPE_1UE_96PRB_Special_DynScaling	8	Regression	SrsReceiver MT	zhujiang	History	12wk17
+3008	TC_MT_SRS_CASE_8PIPE_1UE_96PRB_Special_Calibration	8	Regression	SrsReceiver MT	zhujiang	History	12wk17
+3009	TC_MT_SRS_CASE_8PIPE_1UE_4PRB_Special_Calibration	8	Regression	SrsReceiver MT	zhujiang	History	12wk17
+3010	TC_MT_SRS_CASE_8PIPE_1UE_96PRB_Special_0dB	8	Regression	SrsReceiver MT	zhujiang	History	12wk17
+3011	TC_MT_SRS_CASE_8PIPE_1UE_4PRB_Special_minus7dB	8	Regression	SrsReceiver MT	zhujiang	History	12wk17
+3012	TC_MT_SRS_CASE_8PIPE_1UE_96PRB_Special_minus14dB	8	Regression	SrsReceiver MT	zhujiang	History	12wk17
+3014	TC_MT_SRS_CASE_8PIPE_1UE_4PRB_Special_Calibration_10M	8	Regression	SrsReceiver MT	zhujiang	History	12wk17
+3015	TC_MT_PRACH_RECEIVER_LATENCY_TEST_8PIPE	8	Regression	PrachReceiver MT	qifeng	History	12wk17
+3016	TM708_PRACH_F4_8PIPE	8	Regression	Prach SCT	qifeng	History	12wk17
+3017	TM320_Prach_8PIPE	8	Regression	Prach SCT	qifeng	History	12wk17
+3018	TM321_Prach_8PIPE	8	Regression	Prach SCT	qifeng	History	12wk17
+3019	TM217_scaling001_4PIPE	4	Regression	Pucch SCT	l86zhang	History	12wk17
+3020	TM218_scaling002_4PIPE	4	Regression	Pucch SCT	l86zhang	History	12wk17
+3021	TM219_scaling003_4PIPE	4	Regression	Pucch SCT	l86zhang	History	12wk17
+3022	TM220_scaling004_4PIPE	4	Regression	Pucch SCT	l86zhang	History	12wk17
+3023	TC_MT_SRS_CASE_8PIPE_1UE_96PRB_Symbol5_30Degree	8	Regression	SrsReceiver MT	zhujiang	History	12wk17
+3024	TC_MT_RX_CALIBRATION_RECEIVER_10M_001	8	Regression	Calibration MT	qifeng	History	12wk17
+3025	TC_MT_CHANNELIZER_PUSCH_8PIPE_PERCORE_20M_CASE	8	Regression	Channelizer MT	b2li	History	12wk16
+3026	TC_MT_CHANNELIZER_PUCCH_8PIPE_PERCORE_20M_CASE	8	Regression	Channelizer MT	b2li	History	12wk16
+3027	TC_MT_CHANNELIZER_RACH_8PIPE_PERCORE_F0_20M_CASE_12	8	Regression	Channelizer MT	b2li	History	12wk16
+3028	TC_MT_CHANNELIZER_RACH_8PIPE_PERCORE_F1_20M_CASE_25	8	Regression	Channelizer MT	b2li	History	12wk16
+3029	TC_MT_CHANNELIZER_RACH_8PIPE_PERCORE_F2_20M_CASE_35	8	Regression	Channelizer MT	b2li	History	12wk16
+3030	TC_MT_CHANNELIZER_RACH_8PIPE_PERCORE_F4_20M_CASE_52	8	Regression	Channelizer MT	b2li	History	12wk16
+3031	TC_MT_CHANNELIZER_RACH_8PIPE_PERCORE_F4_20M_CASE_57	8	Regression	Channelizer MT	b2li	History	12wk16
+3032	TC_MT_CHANNELIZER_PUCH_2PIPE_PERCORE_10M_CASE	2	Regression	Channelizer MT	shazhang	History	12wk16
+3033	TC_MT_CHANNELIZER_SRS_2PIPE_PERCORE_10M_CASE	2	Regression	Channelizer MT	shazhang	History	12wk16
+3034	TC_MT_CHANNELIZER_RACH_2PIPE_PERCORE_F0_10M_CASE_12	2	Regression	Channelizer MT	shazhang	History	12wk16
+3035	TC_MT_CHANNELIZER_RACH_2PIPE_PERCORE_F1_10M_CASE_25	2	Regression	Channelizer MT	shazhang	History	12wk16
+3036	TC_MT_CHANNELIZER_RACH_2PIPE_PERCORE_F2_10M_CASE_35	2	Regression	Channelizer MT	shazhang	History	12wk16
+3037	TC_MT_CHANNELIZER_RACH_2PIPE_PERCORE_F4_10M_CASE_52	2	Regression	Channelizer MT	shazhang	History	12wk16
+3038	TC_MT_CHANNELIZER_RACH_2PIPE_PERCORE_F4_10M_CASE_57	2	Regression	Channelizer MT	shazhang	History	12wk16
+3039	TM1205_8PIPE	8	Regression	Channelizer SCT	b2li	History	12wk16
+3040	TM1110_Mixed_NORMALMODE_8PIPE	8	Regression	Pusch SCT	shazhang	History	12wk17
+3041	TM1110_2u_Mixed_NORMALMODE_8PIPE	8	Regression	Pusch SCT	yalqu	History	12wk17
+3042	TM309_8PIPE	8	Regression	Prach SCT	qifeng	History	12wk17
+3043	TM901_8PIPE	8	Regression	Other SCT	b2li	History	12wk17
+3044	TM902_8PIPE	8	Regression	Other SCT	b2li	History	12wk17
+3045	TM903_8PIPE	8	Regression	Other SCT	b2li	History	12wk17
+3046	TM904_8PIPE	8	Regression	Other SCT	b2li	History	12wk17
+3047	TM905_8PIPE	8	Regression	Other SCT	b2li	History	12wk17
+3048	TM915_8PIPE	8	Regression	Other SCT	b2li	History	12wk17
+3049	TM917_8PIPE	8	Regression	Other SCT	b2li	History	12wk17
+3050	TC_MT_PRACH_RECEIVER_LATENCY_TEST_2PIPE	2	Regression	PrachReceiver MT	qifeng	History	12wk21
+3051	TC_MT_PRACH_CHANNELIZER_RECEIVER_F0	2	Regression	PrachReceiver MT	qifeng	History	12wk21
+3052	TC_MT_PRACH_CHANNELIZER_RECEIVER_F1	2	Regression	PrachReceiver MT	qifeng	History	12wk21
+3053	TC_MT_PRACH_CHANNELIZER_RECEIVER_F0_CONSEC_TTI	2	Regression	PrachReceiver MT	qifeng	History	12wk21
+3054	TC_MT_PRACH_CHANNELIZER_RECEIVER_F4	2	Regression	PrachReceiver MT	qifeng	History	12wk21
+3055	TM301_Prach_2PIPE	2	Regression	Prach SCT	qifeng	History	12wk21
+3056	TM301_Prach_F4_2PIPE	2	Regression	Prach SCT	qifeng	History	12wk21
+3057	TM302_Prach_2PIPE	2	Regression	Prach SCT	qifeng	History	12wk21
+3058	TM301_Prach_F4_n6p9_2PIPE	2	Regression	Prach SCT	qifeng	History	12wk21
+3059	TM301_Prach_F4_50dB_2PIPE	2	Regression	Prach SCT	qifeng	History	12wk21
+3060	TM308_2PIPE	2	Regression	Prach SCT	qifeng	History	12wk21
+3061	TM708_Prach_50dB_2PIPE	2	Regression	Prach SCT	qifeng	History	12wk21
+3062	TM321_Prach_2PIPE	2	Regression	Prach SCT	qifeng	History	12wk21
+3063	TM309_2PIPE	2	Regression	Prach SCT	qifeng	History	12wk21
+3064	TM1113_RIUpdate_SuperCell_Mixed_8Ant_4PIPE	4	Regression	Pusch SCT	yalqu	History	12wk20
+3065	TM1110_Mixed_2PIPE	2	Regression	Pusch SCT	shazhang	History	12wk20
+3066	TM1110_2u_Mixed_2PIPE	2	Regression	Pusch SCT	shazhang	History	12wk20
+3067	TM201_5UE_NORMALMODE_2PIPE	2	Regression	Pucch SCT	l86zhang	History	12wk22
+3068	TM202_15UE_NORMALMODE_2PIPE	2	Regression	Pucch SCT	l86zhang	History	12wk22
+3069	TM204_15UE_2PIPE	2	Regression	Pucch SCT	l86zhang	History	12wk22
+3070	TM205_65UE_2PIPE	2	Regression	Pucch SCT	l86zhang	History	12wk22
+3071	TM206_15UE_2PIPE	2	Regression	Pucch SCT	l86zhang	History	12wk22
+3072	TM207_15UE_2PIPE	2	Regression	Pucch SCT	l86zhang	History	12wk22
+3073	TM210_ClosedLoopMIMO_8PIPE	8	Regression	Pucch SCT	l86zhang	History	12wk22
+3074	TM209_ClosedLoopMIMO_8PIPE	8	Regression	Pucch SCT	l86zhang	History	12wk22
+3075	TM208_ClosedLoopMIMO_8PIPE	8	Regression	Pucch SCT	l86zhang	History	12wk22
+3076	TM222_15UE_MULTIDETECT_4PIPE	4	Regression	Pucch SCT	l86zhang	History	12wk22
+3077	TC_MT_PUCCH_RECEIVER_5ue_2PIPE	2	Regression	PucchReceiver MT	l86zhang	History	12wk22
+3078	TC_MT_PUCCH_RECEIVER_1ueFormat2_2PIPE	2	Regression	PucchReceiver MT	l86zhang	History	12wk22
+3079	TC_MT_PUCCH_RECEIVER_15ue_2PIPE	2	Regression	PucchReceiver MT	l86zhang	History	12wk22
+3080	TC_MT_PUCCH_RECEIVER_1ueSubframe7_2PIPE	2	Regression	PucchReceiver MT	l86zhang	History	12wk22
+3081	TC_MT_PUCCH_RECEIVER_15ueSrAckCqiMeasChannelizer_2PIPE	2	Regression	PucchReceiver MT	l86zhang	History	12wk22
+3082	TC_MT_PUCCH_RECEIVER_15ueDrxcqi_2PIPE	2	Regression	PucchReceiver MT	l86zhang	History	12wk22
+3083	TC_MT_PUCCH_RECEIVER_controlFlowWrongRecvRequestPara_2PIPE	2	Regression	PucchReceiver MT	l86zhang	History	12wk22
+3084	TC_MT_PUCCH_RECEIVER_15ueDifferentCellPara_2PIPE	2	Regression	PucchReceiver MT	l86zhang	History	12wk22
+3085	TM901_2PIPE	2	Regression	Other SCT	b2li	History	12wk20
+3086	TM902_2PIPE	2	Regression	Other SCT	b2li	History	12wk20
+3087	TM903_2PIPE	2	Regression	Other SCT	b2li	History	12wk20
+3088	TM915_2PIPE	2	Regression	Other SCT	b2li	History	12wk20
+3089	TC_MT_RESOURCE_MANAGER_CPU_LOAD_001	4	Regression	PucchReceiver MT	l86zhang	History	12wk21
+3090	TM214_15UE_SRCOMBINE_2PIPE	2	Regression	Pucch SCT	l86zhang	History	12wk22
+3091	TM215_5UE_AN_2PIPE	2	Regression	Pucch SCT	l86zhang	History	12wk22
+3092	TM411_2PIPE	2	Regression	Srs SCT	zhujiang	History	12wk35
+3093	TM414_2PIPE	2	Regression	Srs SCT	zhujiang	History	12wk22
+3094	TM415_2PIPE	2	Regression	Srs SCT	zhujiang	History	12wk22
+3095	TC_MT_SRS_CASE_2PIPE_2UE	2	Regression	SrsReceiver MT	zhujiang	History	12wk21
+3096	TC_MT_SRS_CASE_2PIPE_2UE_Special	2	Regression	SrsReceiver MT	zhujiang	History	12wk21
+3097	TC_MT_SRS_CASE_2PIPE_3UE_4PRB_Special	2	Regression	SrsReceiver MT	zhujiang	History	12wk21
+3098	TC_MT_SRS_CASE_2PIPE_3UE_4PRB	2	Regression	SrsReceiver MT	zhujiang	History	12wk21
+3099	TC_MT_SRS_CASE_2PIPE_60UE_4PRB_Special	2	Regression	SrsReceiver MT	zhujiang	History	12wk21
+3100	TC_MT_SRS_CASE_2PIPE_1UE_48PRB_10M_Special	2	Regression	SrsReceiver MT	zhujiang	History	12wk21
+3101	TC_MT_CHANNELIZER_RACH_8PIPE_PERCORE_F4_20M_CASE_52	8	Regression	Channelizer MT	b2li	History	12wk16
+3103	TM120_PUSCH_EVA70_A48_8p6dB_IRC_4PIPE	4	Regression	Pusch SCT	yalqu	History	13wk09
+3104	TM120_PUSCH_EVA70_A37_n0p9dB_IRC_4PIPE	4	Regression	Pusch SCT	yalqu	History	13wk09
+3105	TM120_PUSCH_EPA5_A57_15p9dB_IRC_4PIPE	4	Regression	Pusch SCT	yalqu	History	13wk09
+3106	TM120_PUSCH_ETU70_A31_0p1dB_IRC_4PIPE	4	Regression	Pusch SCT	yalqu	History	13wk09
+3107	TM120_PUSCH_EVA5_A51_15p6dB_IRC_4PIPE	4	Regression	Pusch SCT	yalqu	History	13wk09
+3108	TM120_PUSCH_EPA5_A37_n1p5dB_IRC_4PIPE	4	Regression	Pusch SCT	yalqu	History	13wk09
+3109	TM120_PUSCH_EVA5_A41_7p9dB_IRC_4PIPE	4	Regression	Pusch SCT	yalqu	History	13wk09
+3110	TM120_PUSCH_EVA5_A31_0p7dB_IRC_4PIPE	4	Regression	Pusch SCT	yalqu	History	13wk09
+3111	TM120_PUSCH_ETU300_A31_0p3dB_IRC_4PIPE	4	Regression	Pusch SCT	yalqu	History	13wk09
+3112	TM120_PUSCH_EPA5_A48_7p5dB_IRC_4PIPE	4	Regression	Pusch SCT	yalqu	History	13wk09
+3113	TC_MT_SRS_CASE_8PIPE_2UE_Special_withChan	8	Regression	SrsReceiver MT	zhujiang	History	12wk25
+3114	TC_MT_CHANNELIZER_SNAPSHOT_2PIPE_20M_CASE	2	Regression	Channelizer MT	b2li	History	12wk22
+3115	TC_MT_CHANNELIZER_SNAPSHOT_2PIPE_20M_CASE_Ring	2	Regression	Channelizer MT	b2li	History	12wk22
+3116	TC_MT_CHANNELIZER_PUCCH_4PIPE_20M_CASE	4	Regression	Channelizer MT	b2li	History	12wk22
+3117	TC_MT_CHANNELIZER_PUSCH_4PIPE_20M_CASE	4	Regression	Channelizer MT	b2li	History	12wk22
+3118	MT_Decoder_CP_EXCEPT_TestCase1	2	Regression	Decoder MT	shazhang	History	12wk22
+3119	MT_Decoder_CP_EXCEPT_TestCase2	2	Regression	Decoder MT	shazhang	History	12wk22
+3120	MT_Decoder_CP_EXCEPT_TestCase4	2	Regression	Decoder MT	shazhang	History	12wk22
+3121	MT_Decoder_CP_EXCEPT_TestCase3	2	Regression	Decoder MT	shazhang	History	12wk22
+3122	MT_Decoder_CP_EXCEPT_TestCase6	2	Regression	Decoder MT	shazhang	History	12wk22
+3123	MT_Decoder_CP_EXCEPT_TestCase5	2	Regression	Decoder MT	shazhang	History	12wk22
+3246	TC_MT_CHANNELIZER_PUCH_2PIPE_PERCORE_20M_CASE	2	Regression	Channelizer MT	shazhang	History	12wk16
+3247	TC_MT_CHANNELIZER_SRS_2PIPE_PERCORE_20M_CASE	2	Regression	Channelizer MT	shazhang	History	12wk16
+3248	TC_MT_CHANNELIZER_RACH_2PIPE_PERCORE_F0_20M_CASE_12	2	Regression	Channelizer MT	shazhang	History	12wk16
+3249	TC_MT_CHANNELIZER_RACH_2PIPE_PERCORE_F1_20M_CASE_25	2	Regression	Channelizer MT	shazhang	History	12wk16
+3250	TC_MT_CHANNELIZER_RACH_2PIPE_PERCORE_F2_20M_CASE_35	2	Regression	Channelizer MT	shazhang	History	12wk16
+3251	TC_MT_CHANNELIZER_RACH_2PIPE_PERCORE_F4_20M_CASE_52	2	Regression	Channelizer MT	shazhang	History	12wk16
+3252	TC_MT_CHANNELIZER_RACH_2PIPE_PERCORE_F4_20M_CASE_57	2	Regression	Channelizer MT	shazhang	History	12wk16
+3430	TM110_Pusch_Except_Param_2PIPE	2	Regression	Pusch SCT	shazhang	(IBP) RL25 -- PUSCH/Decoder para checking and processing optimization, fb1207 leftover	13wk18
+3574	TM110_Pusch_Except_Param_2DSP_2PIPE	2	Regression	Pusch SCT	shazhang	(IBP) RL25 -- PUSCH/Decoder para checking and processing optimization, fb1207 leftover	13wk18
+3431	TM110_Pusch_Except_Param_8PIPE	8	Regression	Pusch SCT	shazhang	(IBP) RL25 -- PUSCH/Decoder para checking and processing optimization, fb1207 leftover	13wk18
+3205	MT_Decoder_DATA_EXCEPT_TestCase1	2	Regression	Decoder MT	shazhang	(IBP) RL25 -- PUSCH/Decoder para checking and processing optimization, fb1207 leftover	12wk34
+3206	MT_Decoder_DATA_EXCEPT_TestCase2	2	Regression	Decoder MT	shazhang	(IBP) RL25 -- PUSCH/Decoder para checking and processing optimization, fb1207 leftover	12wk34
+3229	TM513_Calibration_ABNORMAL_20MHZ_8PIPE	8	Regression	Calibration SCT	qifeng	(IBP) RL35 - TX/RX calibration abnormal processing	12wk39
+3243	TC_MT_CHANNELIZER_SNAPSHOT_8PIPE_10M_CASE_CALI	8	Regression	Channelizer MT	b2li	(IBP) RL35 -- Arbitrary cross-symbol support for calibration - CHANNELIZER 	12wk43
+3242	TC_MT_CHANNELIZER_SNAPSHOT_8PIPE_20M_CASE_CALI	8	Regression	Channelizer MT	b2li	(IBP) RL35 -- Arbitrary cross-symbol support for calibration - CHANNELIZER 	12wk43
+3241	TC_MT_CHANNELIZER_SNAPSHOT_4PIPE_10M_CASE_CALI	4	Regression	Channelizer MT	b2li	(IBP) RL35 -- Arbitrary cross-symbol support for calibration - CHANNELIZER 	12wk43
+3240	TC_MT_CHANNELIZER_SNAPSHOT_4PIPE_20M_CASE_CALI	4	Regression	Channelizer MT	b2li	(IBP) RL35 -- Arbitrary cross-symbol support for calibration - CHANNELIZER 	12wk43
+3231	TC_MT_CHANNELIZER_CALI_4PIPE_PERCORE_10M_CASE_CROSSSYMBOL	4	Regression	Channelizer MT	b2li	(IBP) RL35 -- Arbitrary cross-symbol support for calibration - CHANNELIZER 	12wk37
+3233	TC_MT_CHANNELIZER_CALI_8PIPE_PERCORE_10M_CASE_CROSSSYMBOL	8	Regression	Channelizer MT	b2li	(IBP) RL35 -- Arbitrary cross-symbol support for calibration - CHANNELIZER 	12wk37
+3232	TC_MT_CHANNELIZER_CALI_8PIPE_PERCORE_20M_CASE_CROSSSYMBOL	8	Regression	Channelizer MT	b2li	(IBP) RL35 -- Arbitrary cross-symbol support for calibration - CHANNELIZER 	12wk37
+3230	TC_MT_CHANNELIZER_CALI_4PIPE_PERCORE_20M_CASE_CROSSSYMBOL	4	Regression	Channelizer MT	b2li	(IBP) RL35 -- Arbitrary cross-symbol support for calibration - CHANNELIZER 	12wk37
+3570	TM103_Pusch_10M_2DSP_2PIPE	2	Regression	Pusch SCT	shazhang	(EBP) RL35 - LTE1133-aa: TDL/TDS dual mode calibration support 	13wk18
+3416	TM102_Pusch_Uci_Sequence_2PIPE	2	Regression	Pusch SCT	shazhang	(EBP) RL35 - LTE1133-aa: TDL/TDS dual mode calibration support 	13wk18
+3417	TM104_Pusch_Hopping_2PIPE	2	Regression	Pusch SCT	shazhang	(EBP) RL35 - LTE1133-aa: TDL/TDS dual mode calibration support 	13wk18
+3421	TM104_Pusch_Hopping_8PIPE	8	Regression	Pusch SCT	shazhang	(EBP) RL35 - LTE1133-aa: TDL/TDS dual mode calibration support 	13wk18
+3569	TM102_Pusch_Uci_Sequence_2DSP_2PIPE	2	Regression	Pusch SCT	shazhang	(EBP) RL35 - LTE1133-aa: TDL/TDS dual mode calibration support 	13wk18
+3419	TM102_Pusch_Uci_Sequence_8PIPE	8	Regression	Pusch SCT	shazhang	(EBP) RL35 - LTE1133-aa: TDL/TDS dual mode calibration support 	13wk18
+3571	TM104_Pusch_Hopping_2DSP_2PIPE	2	Regression	Pusch SCT	shazhang	(EBP) RL35 - LTE1133-aa: TDL/TDS dual mode calibration support 	13wk18
+3420	TM103_Pusch_10M_8PIPE	8	Regression	Pusch SCT	shazhang	(EBP) RL35 - LTE1133-aa: TDL/TDS dual mode calibration support 	13wk18
+3418	TM103_Pusch_10M_4PIPE	4	Regression	Pusch SCT	shazhang	(EBP) RL35 - LTE1133-aa: TDL/TDS dual mode calibration support 	13wk18
+3245	TM226_ClosedLoopMIMO_8PIPE	8	Regression	Pucch SCT	l86zhang	(IBP) RL35 - PUCCH RI bug fix due to supercell change (pucch)	12wk43
+3506	TC_MT_PUSCH_CTRL_FLOW_8PIPE_CHAN_RESP_003	8	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3512	TC_MT_PUSCH_CTRL_FLOW_8PIPE_CELL_SETUP_004	8	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3436	TC_MT_PUSCH_CTRL_FLOW_2PIPE_RECEIVER_REQ_003	2	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3437	TC_MT_PUSCH_CTRL_FLOW_2PIPE_RECEIVER_REQ_004	2	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3514	TC_MT_PUSCH_DATA_FLOW_8PIPE_CASE_FullPrb_SingleUe002	8	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3438	TC_MT_PUSCH_CTRL_FLOW_2PIPE_RECEIVER_REQ_005	2	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3439	TC_MT_PUSCH_CTRL_FLOW_2PIPE_CELL_DELETE_001	2	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3440	TC_MT_PUSCH_CTRL_FLOW_2PIPE_CELL_DELETE_002	2	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3441	TC_MT_PUSCH_CTRL_FLOW_2PIPE_CHAN_RESP_001	2	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3442	TC_MT_PUSCH_CTRL_FLOW_2PIPE_CHAN_RESP_002	2	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3443	TC_MT_PUSCH_CTRL_FLOW_2PIPE_CHAN_RESP_003	2	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3444	TC_MT_PUSCH_CTRL_FLOW_2PIPE_CHAN_RESP_004	2	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3445	TC_MT_PUSCH_CTRL_FLOW_2PIPE_CHAN_RESP_005	2	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3446	TC_MT_PUSCH_CTRL_FLOW_2PIPE_CELL_SETUP_001	2	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3435	TC_MT_PUSCH_CTRL_FLOW_2PIPE_RECEIVER_REQ_002	2	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3434	TC_MT_PUSCH_CTRL_FLOW_2PIPE_RECEIVER_REQ_001	2	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3504	TC_MT_PUSCH_CTRL_FLOW_8PIPE_CHAN_RESP_001	8	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3503	TC_MT_PUSCH_CTRL_FLOW_8PIPE_CELL_DELETE_002	8	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3456	TC_MT_PUSCH_DATA_FLOW_2PIPE_CASE_IRC_20Ue_MultiUe004	2	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3507	TC_MT_PUSCH_CTRL_FLOW_8PIPE_CHAN_RESP_004	8	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3508	TC_MT_PUSCH_CTRL_FLOW_8PIPE_CHAN_RESP_005	8	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3489	TC_MT_PUSCH_DATA_FLOW_SUPER_CELL_CASE_MultiUe008	4	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3513	TC_MT_PUSCH_DATA_FLOW_8PIPE_CASE_OnePrb_SingleUe001	8	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3509	TC_MT_PUSCH_CTRL_FLOW_8PIPE_CELL_SETUP_001	8	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3510	TC_MT_PUSCH_CTRL_FLOW_8PIPE_CELL_SETUP_002	8	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3422	TM105_Pusch_With_Measure_Check_4PIPE	4	Regression	Pusch SCT	shazhang	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3423	TM112_Pusch_ClosedLoopMIMO_4PIPE	4	Regression	Pusch SCT	shazhang	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3429	TM112_Pusch_ClosedLoopMIMO_8PIPE	8	Regression	Pusch SCT	shazhang	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3472	TC_MT_PUSCH_CTRL_FLOW_4PIPE_CHAN_RESP_003	4	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3511	TC_MT_PUSCH_CTRL_FLOW_8PIPE_CELL_SETUP_003	8	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3505	TC_MT_PUSCH_CTRL_FLOW_8PIPE_CHAN_RESP_002	8	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3447	TC_MT_PUSCH_CTRL_FLOW_2PIPE_CELL_SETUP_002	2	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3502	TC_MT_PUSCH_CTRL_FLOW_8PIPE_CELL_DELETE_001	8	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3486	TC_MT_PUSCH_DATA_FLOW_4PIPE_CASE_IRC_Hopping_MultiUe005	4	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3485	TC_MT_PUSCH_DATA_FLOW_4PIPE_CASE_IRC_20Ue_MultiUe004	4	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3484	TC_MT_PUSCH_DATA_FLOW_4PIPE_CASE_10MHz_MultiUe003	4	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3483	TC_MT_PUSCH_DATA_FLOW_4PIPE_CASE_Hopping_MultiUe002	4	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3482	TC_MT_PUSCH_DATA_FLOW_4PIPE_CASE_20Ue_MultiUe001	4	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3481	TC_MT_PUSCH_DATA_FLOW_4PIPE_CASE_IRC_FullPrb_SingleUe003	4	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3480	TC_MT_PUSCH_DATA_FLOW_4PIPE_CASE_FullPrb_SingleUe002	4	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3479	TC_MT_PUSCH_DATA_FLOW_4PIPE_CASE_OnePrb_SingleUe001	4	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3478	TC_MT_PUSCH_CTRL_FLOW_4PIPE_CELL_SETUP_004	4	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3477	TC_MT_PUSCH_CTRL_FLOW_4PIPE_CELL_SETUP_003	4	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3487	TC_MT_PUSCH_DATA_FLOW_4PIPE_CASE_IRC_10MHz_WithChan_MultiUe006	4	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3488	TC_MT_PUSCH_DATA_FLOW_SUPER_CELL_CASE_MultiUe007	4	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3490	TC_MT_PUSCH_DATA_FLOW_SUPER_CELL_CASE_MultiUe009	4	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3501	TC_MT_PUSCH_CTRL_FLOW_8PIPE_RECEIVER_REQ_005	8	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3500	TC_MT_PUSCH_CTRL_FLOW_8PIPE_RECEIVER_REQ_004	8	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3499	TC_MT_PUSCH_CTRL_FLOW_8PIPE_RECEIVER_REQ_003	8	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3498	TC_MT_PUSCH_CTRL_FLOW_8PIPE_RECEIVER_REQ_002	8	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3497	TC_MT_PUSCH_CTRL_FLOW_8PIPE_RECEIVER_REQ_001	8	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3496	TC_MT_PUSCH_DATA_FLOW_4PIPE_CASE_Dynamic_Scalling_WithChan	4	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3494	TC_MT_PUSCH_DATA_FLOW_4PIPE_Measure_Without_Schedule	4	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3493	TC_MT_PUSCH_DATA_FLOW_4PIPE_Measure_With_ScheduleNoUe	4	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3492	TC_MT_PUSCH_DATA_FLOW_4PIPE_CASE_LowSNR_Perform002	4	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3491	TC_MT_PUSCH_DATA_FLOW_4PIPE_CASE_LowSNR_Perform001	4	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3476	TC_MT_PUSCH_CTRL_FLOW_4PIPE_CELL_SETUP_002	4	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3475	TC_MT_PUSCH_CTRL_FLOW_4PIPE_CELL_SETUP_001	4	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3474	TC_MT_PUSCH_CTRL_FLOW_4PIPE_CHAN_RESP_005	4	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3459	TC_MT_PUSCH_DATA_FLOW_2PIPE_CASE_LowSNR_Perform001	2	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3458	TC_MT_PUSCH_DATA_FLOW_2PIPE_CASE_IRC_10MHz_WithChan_MultiUe006	2	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3457	TC_MT_PUSCH_DATA_FLOW_2PIPE_CASE_IRC_Hopping_MultiUe005	2	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3455	TC_MT_PUSCH_DATA_FLOW_2PIPE_CASE_10MHz_MultiUe003	2	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3454	TC_MT_PUSCH_DATA_FLOW_2PIPE_CASE_Hopping_MultiUe002	2	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3453	TC_MT_PUSCH_DATA_FLOW_2PIPE_CASE_20Ue_MultiUe001	2	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3452	TC_MT_PUSCH_DATA_FLOW_2PIPE_CASE_IRC_FullPrb_SingleUe003	2	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3451	TC_MT_PUSCH_DATA_FLOW_2PIPE_CASE_FullPrb_SingleUe002	2	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3450	TC_MT_PUSCH_DATA_FLOW_2PIPE_CASE_OnePrb_SingleUe001	2	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3449	TC_MT_PUSCH_CTRL_FLOW_2PIPE_CELL_SETUP_004	2	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3460	TC_MT_PUSCH_DATA_FLOW_2PIPE_CASE_LowSNR_Perform002	2	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3461	TC_MT_PUSCH_DATA_FLOW_2PIPE_Measure_With_ScheduleNoUe	2	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3462	TC_MT_PUSCH_DATA_FLOW_2PIPE_Measure_Without_Schedule	2	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3473	TC_MT_PUSCH_CTRL_FLOW_4PIPE_CHAN_RESP_004	4	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3471	TC_MT_PUSCH_CTRL_FLOW_4PIPE_CHAN_RESP_002	4	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3470	TC_MT_PUSCH_CTRL_FLOW_4PIPE_CHAN_RESP_001	4	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3469	TC_MT_PUSCH_CTRL_FLOW_4PIPE_CELL_DELETE_002	4	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3468	TC_MT_PUSCH_CTRL_FLOW_4PIPE_CELL_DELETE_001	4	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3467	TC_MT_PUSCH_CTRL_FLOW_4PIPE_RECEIVER_REQ_005	4	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3466	TC_MT_PUSCH_CTRL_FLOW_4PIPE_RECEIVER_REQ_004	4	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3465	TC_MT_PUSCH_CTRL_FLOW_4PIPE_RECEIVER_REQ_003	4	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3464	TC_MT_PUSCH_CTRL_FLOW_4PIPE_RECEIVER_REQ_002	4	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3463	TC_MT_PUSCH_CTRL_FLOW_4PIPE_RECEIVER_REQ_001	4	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3448	TC_MT_PUSCH_CTRL_FLOW_2PIPE_CELL_SETUP_003	2	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3533	TM108_Pusch_IRC_10M_8PIPE	8	Regression	Pusch SCT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3559	TC_MT_PUSCH_DATA_FLOW_2PIPE_CASE_LowSNR_Perform001_2DSP	2	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3558	TC_MT_PUSCH_DATA_FLOW_2PIPE_CASE_IRC_10MHz_WithChan_MultiUe006_2DSP	2	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3557	TC_MT_PUSCH_DATA_FLOW_2PIPE_CASE_IRC_Hopping_MultiUe005_2DSP	2	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3556	TC_MT_PUSCH_DATA_FLOW_2PIPE_CASE_IRC_20Ue_MultiUe004_2DSP	2	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3555	TC_MT_PUSCH_DATA_FLOW_2PIPE_CASE_10MHz_MultiUe003_2DSP	2	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3554	TC_MT_PUSCH_DATA_FLOW_2PIPE_CASE_Hopping_MultiUe002_2DSP	2	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3553	TC_MT_PUSCH_DATA_FLOW_2PIPE_CASE_20Ue_MultiUe001_2DSP	2	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3552	TC_MT_PUSCH_DATA_FLOW_2PIPE_CASE_IRC_FullPrb_SingleUe003_2DSP	2	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3551	TC_MT_PUSCH_DATA_FLOW_2PIPE_CASE_FullPrb_SingleUe002_2DSP	2	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3550	TC_MT_PUSCH_DATA_FLOW_2PIPE_CASE_OnePrb_SingleUe001_2DSP	2	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3549	TC_MT_PUSCH_CTRL_FLOW_2PIPE_CELL_SETUP_004_2DSP	2	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3548	TC_MT_PUSCH_CTRL_FLOW_2PIPE_CELL_SETUP_003_2DSP	2	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3560	TC_MT_PUSCH_DATA_FLOW_2PIPE_CASE_LowSNR_Perform002_2DSP	2	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3561	TC_MT_PUSCH_DATA_FLOW_2PIPE_Measure_With_ScheduleNoUe_2DSP	2	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3534	TM109_Pusch_IRC_Hopping_4PIPE	4	Regression	Pusch SCT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3577	TC_MT_PUSCH_CTRL_FLOW_2PIPE_RECEIVER_REQ_003_2DSP	2	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3576	TC_MT_PUSCH_CTRL_FLOW_2PIPE_RECEIVER_REQ_002_2DSP	2	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3575	TC_MT_PUSCH_CTRL_FLOW_2PIPE_RECEIVER_REQ_001_2DSP	2	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3529	TM106_Pusch_IRC_Time_Sequence_8PIPE	8	Regression	Pusch SCT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3568	TM112_Pusch_ClosedLoopMIMO_2DSP_2PIPE	2	Regression	Pusch SCT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3567	TM109_Pusch_IRC_Hopping_2DSP_2PIPE	2	Regression	Pusch SCT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3566	TM108_Pusch_IRC_10M_2DSP_2PIPE	2	Regression	Pusch SCT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3565	TM107_Pusch_IRC_Uci_2DSP_2PIPE	2	Regression	Pusch SCT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3564	TM106_Pusch_IRC_Time_Sequence_2DSP_2PIPE	2	Regression	Pusch SCT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3563	TM101_Pusch_Time_Sequence_2DSP_2PIPE	2	Regression	Pusch SCT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3562	TC_MT_PUSCH_DATA_FLOW_2PIPE_Measure_Without_Schedule_2DSP	2	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3532	TM108_Pusch_IRC_10M_2PIPE	2	Regression	Pusch SCT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3547	TC_MT_PUSCH_CTRL_FLOW_2PIPE_CELL_SETUP_002_2DSP	2	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3546	TC_MT_PUSCH_CTRL_FLOW_2PIPE_CELL_SETUP_001_2DSP	2	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3527	TM101_Pusch_Time_Sequence_8PIPE	8	Regression	Pusch SCT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3526	TM101_Pusch_Time_Sequence_4PIPE	4	Regression	Pusch SCT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3525	TC_MT_PUSCH_DATA_FLOW_8PIPE_Measure_Without_Schedule	8	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3524	TC_MT_PUSCH_DATA_FLOW_8PIPE_Measure_With_ScheduleNoUe	8	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3523	TC_MT_PUSCH_DATA_FLOW_8PIPE_CASE_LowSNR_Perform002	8	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3522	TC_MT_PUSCH_DATA_FLOW_8PIPE_CASE_LowSNR_Perform001	8	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3521	TC_MT_PUSCH_DATA_FLOW_8PIPE_CASE_IRC_10MHz_WithChan_MultiUe006	8	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3520	TC_MT_PUSCH_DATA_FLOW_8PIPE_CASE_IRC_Hopping_MultiUe005	8	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3519	TC_MT_PUSCH_DATA_FLOW_8PIPE_CASE_IRC_20Ue_MultiUe004	8	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3518	TC_MT_PUSCH_DATA_FLOW_8PIPE_CASE_10MHz_MultiUe003	8	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3517	TC_MT_PUSCH_DATA_FLOW_8PIPE_CASE_Hopping_MultiUe002	8	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3516	TC_MT_PUSCH_DATA_FLOW_8PIPE_CASE_20Ue_MultiUe001	8	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3528	TM106_Pusch_IRC_Time_Sequence_2PIPE	2	Regression	Pusch SCT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3536	TM112_Pusch_ClosedLoopMIMO_2PIPE	2	Regression	Pusch SCT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3544	TC_MT_PUSCH_CTRL_FLOW_2PIPE_CHAN_RESP_004_2DSP	2	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3543	TC_MT_PUSCH_CTRL_FLOW_2PIPE_CHAN_RESP_003_2DSP	2	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3542	TC_MT_PUSCH_CTRL_FLOW_2PIPE_CHAN_RESP_002_2DSP	2	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3541	TC_MT_PUSCH_CTRL_FLOW_2PIPE_CHAN_RESP_001_2DSP	2	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3540	TC_MT_PUSCH_CTRL_FLOW_2PIPE_CELL_DELETE_002_2DSP	2	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3545	TC_MT_PUSCH_CTRL_FLOW_2PIPE_CHAN_RESP_005_2DSP	2	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3535	TM109_Pusch_IRC_Hopping_8PIPE	8	Regression	Pusch SCT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3539	TC_MT_PUSCH_CTRL_FLOW_2PIPE_CELL_DELETE_001_2DSP	2	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3538	TC_MT_PUSCH_CTRL_FLOW_2PIPE_RECEIVER_REQ_005_2DSP	2	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3537	TC_MT_PUSCH_CTRL_FLOW_2PIPE_RECEIVER_REQ_004_2DSP	2	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3531	TM107_Pusch_IRC_Uci_8PIPE	8	Regression	Pusch SCT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3530	TM107_Pusch_IRC_Uci_4PIPE	4	Regression	Pusch SCT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3515	TC_MT_PUSCH_DATA_FLOW_8PIPE_CASE_IRC_FullPrb_SingleUe003	8	Regression	PuschReceiver MT	yalqu	(IBP) LNT3.1  --Testability -- FT cases rearrangement PUSCH	13wk18
+3258	TM143_Pusch_Decoder_UeGroups_4PIPE	4	Regression	Pusch SCT	shazhang	(EBP) LNT3.0 - LBT1486-c4:Event Machine for LTE User Plane - Usage of UeIndex and UE Grouping within User Plane - Decoder	12wk51
+3253	TM1212_Mixed_RI_4PIPE	4	Regression	Combined SCT	l86zhang	(IBP) LNT3.0 & LNT3.1 - PUCCH RI reset function verification	12wk51
+3254	TM1212_Mixed_RI_8PIPE	8	Regression	Combined SCT	l86zhang	(IBP) LNT3.0 & LNT3.1 - PUCCH RI reset function verification	12wk51
+3303	TM1212_Mixed_RI_2DSP_2PIPE	2	Regression	Combined SCT	l86zhang	(IBP) LNT3.0 & LNT3.1 - PUCCH RI reset function verification	13wk09
+3256	TM418_EM_1486_8PIPE	8	Regression	Srs SCT	l5zhou	(EBP) LNT3.0 - LBT1486-c4:Event Machine for LTE User Plane - Usage of UeIndex and UE Grouping within User Plane - SRS part	12wk51
+3255	TC_MT_PUCCH_RECEIVER_1UE_Format2DTX_8PIPE	8	Regression	PucchReceiver MT	l86zhang	(IBP) LNT3.0 & LNT3.1 - Add one PUCCH MT case for CQI DTX	12wk51
+3281	TM901_2DSP_2PIPE	2	Regression	Other SCT	shazhang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PUSCH	13wk09
+3330	TC_MT_CHANNELIZER_SRS_2PIPE_PERCORE_20M_2DSP_CASE	2	Regression	Channelizer MT	shazhang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PUSCH	13wk05
+3331	TC_MT_CHANNELIZER_RACH_2PIPE_PERCORE_F0_20M_2DSP_CASE_12	2	Regression	Channelizer MT	shazhang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PUSCH	13wk05
+3332	TC_MT_CHANNELIZER_RACH_2PIPE_PERCORE_F1_20M_2DSP_CASE_25	2	Regression	Channelizer MT	shazhang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PUSCH	13wk05
+3329	TC_MT_CHANNELIZER_PUCH_2PIPE_PERCORE_20M_2DSP_CASE	2	Regression	Channelizer MT	shazhang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PUSCH	13wk05
+3328	TC_MT_CHANNELIZER_SRS_2PIPE_PERCORE_15M_2DSP_CASE	2	Regression	Channelizer MT	shazhang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PUSCH	13wk05
+3327	TC_MT_CHANNELIZER_PUCH_2PIPE_PERCORE_15M_2DSP_CASE	2	Regression	Channelizer MT	shazhang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PUSCH	13wk05
+3326	TC_MT_CHANNELIZER_SRS_2PIPE_PERCORE_10M_2DSP_CASE	2	Regression	Channelizer MT	shazhang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PUSCH	13wk05
+3325	TC_MT_CHANNELIZER_PUCH_2PIPE_PERCORE_10M_2DSP_CASE	2	Regression	Channelizer MT	shazhang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PUSCH	13wk05
+3333	TC_MT_CHANNELIZER_RACH_2PIPE_PERCORE_F2_20M_2DSP_CASE_35	2	Regression	Channelizer MT	shazhang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PUSCH	13wk05
+3334	TC_MT_CHANNELIZER_RACH_2PIPE_PERCORE_F4_20M_2DSP_CASE_52	2	Regression	Channelizer MT	shazhang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PUSCH	13wk05
+3335	TC_MT_CHANNELIZER_RACH_2PIPE_PERCORE_F4_20M_2DSP_CASE_57	2	Regression	Channelizer MT	shazhang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PUSCH	13wk05
+3282	TM902_2DSP_2PIPE	2	Regression	Other SCT	shazhang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PUSCH	13wk09
+3283	TM903_2DSP_2PIPE	2	Regression	Other SCT	shazhang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PUSCH	13wk09
+3284	TM904_2DSP_2PIPE	2	Regression	Other SCT	shazhang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PUSCH	13wk09
+3287	TM917_2DSP_2PIPE	2	Regression	Other SCT	shazhang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PUSCH	13wk09
+3352	TM1110_2u_Mixed_2DSP_2PIPE	2	Regression	Combined SCT	shazhang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PUSCH	13wk09
+3351	TM1110_Mixed_2DSP_2PIPE	2	Regression	Combined SCT	shazhang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PUSCH	13wk09
+3324	TC_MT_CHANNELIZER_RACH_2PIPE_PERCORE_F4_10M_2DSP_CASE_57	2	Regression	Channelizer MT	shazhang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PUSCH	13wk05
+3286	TM915_2DSP_2PIPE	2	Regression	Other SCT	shazhang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PUSCH	13wk09
+3285	TM905_2DSP_2PIPE	2	Regression	Other SCT	shazhang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PUSCH	13wk09
+3322	TC_MT_CHANNELIZER_RACH_2PIPE_PERCORE_F2_10M_2DSP_CASE_35	2	Regression	Channelizer MT	shazhang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PUSCH	13wk05
+3321	TC_MT_CHANNELIZER_RACH_2PIPE_PERCORE_F1_10M_2DSP_CASE_25	2	Regression	Channelizer MT	shazhang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PUSCH	13wk05
+3315	TC_MT_CHANNELIZER_SNAPSHOT_2PIPE_15M_2DSP_CASE	2	Regression	Channelizer MT	shazhang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PUSCH	13wk05
+3302	TM1209_UDconf2_20M_2DSP_2PIPE	2	Regression	Combined SCT	l5zhou	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PUSCH	13wk09
+3301	TM1209_UDconf1_20M_2DSP_2PIPE	2	Regression	Combined SCT	l86zhang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PUSCH	13wk09
+3316	TC_MT_CHANNELIZER_SNAPSHOT_2PIPE_15M_2DSP_CASE_Ring	2	Regression	Channelizer MT	shazhang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PUSCH	13wk05
+3323	TC_MT_CHANNELIZER_RACH_2PIPE_PERCORE_F4_10M_2DSP_CASE_52	2	Regression	Channelizer MT	shazhang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PUSCH	13wk05
+3313	TC_MT_CHANNELIZER_SNAPSHOT_2PIPE_10M_2DSP_CASE	2	Regression	Channelizer MT	shazhang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PUSCH	13wk05
+3314	TC_MT_CHANNELIZER_SNAPSHOT_2PIPE_10M_2DSP_CASE_Ring	2	Regression	Channelizer MT	shazhang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PUSCH	13wk05
+3320	TC_MT_CHANNELIZER_RACH_2PIPE_PERCORE_F0_10M_2DSP_CASE_12	2	Regression	Channelizer MT	shazhang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PUSCH	13wk05
+3319	TMSTD01_Mixed_UDconf1_2DSP_2PIPE	2	Regression	Combined SCT	qifeng	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PUSCH	13wk05
+3318	TC_MT_CHANNELIZER_SNAPSHOT_2PIPE_20M_2DSP_CASE_Ring	2	Regression	Channelizer MT	shazhang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PUSCH	13wk05
+3317	TC_MT_CHANNELIZER_SNAPSHOT_2PIPE_20M_2DSP_CASE	2	Regression	Channelizer MT	shazhang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PUSCH	13wk05
+3292	TM411_2DSP_2PIPE	2	Regression	Srs SCT	zhujiang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --SRS	13wk09
+3344	TC_MT_SRS_CASE_2PIPE_2UE_2DSP	2	Regression	SrsReceiver MT	zhujiang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --SRS	13wk09
+3345	TC_MT_SRS_CASE_2PIPE_2UE_Special_2DSP	2	Regression	SrsReceiver MT	zhujiang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --SRS	13wk09
+3346	TC_MT_SRS_CASE_2PIPE_3UE_4PRB_Special_2DSP	2	Regression	SrsReceiver MT	zhujiang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --SRS	13wk09
+3348	TC_MT_SRS_CASE_2PIPE_60UE_4PRB_Special_2DSP	2	Regression	SrsReceiver MT	zhujiang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --SRS	13wk09
+3349	TC_MT_SRS_CASE_2PIPE_1UE_48PRB_10M_Special_2DSP	2	Regression	SrsReceiver MT	zhujiang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --SRS	13wk09
+3293	TM414_2DSP_2PIPE	2	Regression	Srs SCT	zhujiang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --SRS	13wk09
+3347	TC_MT_SRS_CASE_2PIPE_3UE_4PRB_2DSP	2	Regression	SrsReceiver MT	zhujiang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --SRS	13wk09
+3294	TM415_2DSP_2PIPE	2	Regression	Srs SCT	zhujiang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --SRS	13wk09
+3274	TM201_5UE_NORMALMODE_2DSP_2PIPE	2	Regression	Pucch SCT	l86zhang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PUCCH	13wk05
+3291	TM211_5UE_10M_NORMALMODE_2DSP_2PIPE	2	Regression	Pucch SCT	l86zhang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PUCCH	13wk05
+3290	TM215_5UE_AN_2DSP_2PIPE	2	Regression	Pucch SCT	l86zhang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PUCCH	13wk05
+3276	TM203_15UE_NORMALMODE_2DSP_2PIPE	2	Regression	Pucch SCT	l86zhang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PUCCH	13wk05
+3277	TM204_15UE_2DSP_2PIPE	2	Regression	Pucch SCT	l86zhang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PUCCH	13wk05
+3289	TM214_15UE_SRCOMBINE_2DSP_2PIPE	2	Regression	Pucch SCT	l86zhang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PUCCH	13wk05
+3278	TM205_65UE_2DSP_2PIPE	2	Regression	Pucch SCT	l86zhang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PUCCH	13wk05
+3279	TM206_15UE_2DSP_2PIPE	2	Regression	Pucch SCT	l86zhang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PUCCH	13wk05
+3280	TM207_15UE_2DSP_2PIPE	2	Regression	Pucch SCT	l86zhang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PUCCH	13wk05
+3288	TM212_15UE_DRXCQI_2DSP_2PIPE	2	Regression	Pucch SCT	l86zhang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PUCCH	13wk05
+3300	TM223_5UE_FO_2DSP_2PIPE	2	Regression	Pucch SCT	l86zhang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PUCCH	13wk05
+3305	TC_MT_PUCCH_RECEIVER_1ueFormat2_2PIPE_2DSP	2	Regression	PucchReceiver MT	l86zhang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PUCCH	13wk05
+3308	TC_MT_PUCCH_RECEIVER_15ueSrAckCqiMeasChannelizer_2PIPE_2DSP	2	Regression	PucchReceiver MT	l86zhang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PUCCH	13wk05
+3307	TC_MT_PUCCH_RECEIVER_1ueSubframe7_2PIPE_2DSP	2	Regression	PucchReceiver MT	l86zhang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PUCCH	13wk05
+3275	TM202_15UE_NORMALMODE_2DSP_2PIPE	2	Regression	Pucch SCT	l86zhang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PUCCH	13wk05
+3304	TC_MT_PUCCH_RECEIVER_5ue_2PIPE_2DSP	2	Regression	PucchReceiver MT	l86zhang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PUCCH	13wk05
+3309	TC_MT_PUCCH_RECEIVER_15ueDrxcqi_2PIPE_2DSP	2	Regression	PucchReceiver MT	l86zhang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PUCCH	13wk05
+3310	TC_MT_PUCCH_RECEIVER_controlFlowWrongRecvRequestPara_2PIPE_2DSP	2	Regression	PucchReceiver MT	l86zhang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PUCCH	13wk05
+3311	TC_MT_PUCCH_RECEIVER_15ueDifferentCellPara_2PIPE_2DSP	2	Regression	PucchReceiver MT	l86zhang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PUCCH	13wk05
+3312	TC_MT_PUCCH_RECEIVER_5ue10M_2PIPE_2DSP	2	Regression	PucchReceiver MT	l86zhang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PUCCH	13wk05
+3306	TC_MT_PUCCH_RECEIVER_15ue_2PIPE_2DSP	2	Regression	PucchReceiver MT	l86zhang	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PUCCH	13wk05
+3260	TM301_Prach_F4_2DSP_2PIPE	2	Regression	Prach SCT	qifeng	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PRACH	13wk08
+3264	TM301_Prach_F4_30dB_2DSP_2PIPE	2	Regression	Prach SCT	qifeng	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PRACH	13wk08
+3336	TC_MT_PRACH_RECEIVER_LATENCY_TEST_2PIPE_2DSP	2	Regression	PrachReceiver MT	qifeng	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PRACH	13wk08
+3261	TM302_Prach_2DSP_2PIPE	2	Regression	Prach SCT	qifeng	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PRACH	13wk08
+3262	TM301_Prach_F4_n6p9_2DSP_2PIPE	2	Regression	Prach SCT	qifeng	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PRACH	13wk08
+3267	TM308_2DSP_2PIPE	2	Regression	Prach SCT	qifeng	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PRACH	13wk08
+3268	TM708_Prach_20dB_2DSP_2PIPE	2	Regression	Prach SCT	qifeng	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PRACH	13wk08
+3269	TM708_Prach_50dB_2DSP_2PIPE	2	Regression	Prach SCT	qifeng	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PRACH	13wk08
+3265	TM301_Prach_F4_50dB_2DSP_2PIPE	2	Regression	Prach SCT	qifeng	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PRACH	13wk08
+3259	TM301_Prach_2DSP_2PIPE	2	Regression	Prach SCT	qifeng	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PRACH	13wk08
+3271	TM321_Prach_2DSP_2PIPE	2	Regression	Prach SCT	qifeng	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PRACH	13wk08
+3272	TM309_2DSP_2PIPE	2	Regression	Prach SCT	qifeng	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PRACH	13wk08
+3263	TM301_Prach_F4_10dB_2DSP_2PIPE	2	Regression	Prach SCT	qifeng	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PRACH	13wk08
+3273	TM708_PRACH_F4_2DSP_2PIPE	2	Regression	Prach SCT	qifeng	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PRACH	13wk08
+3266	TM303_Prach_2DSP_2PIPE	2	Regression	Prach SCT	qifeng	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PRACH	13wk08
+3295	TM305_Prach_F0_Measure_2DSP_2PIPE	2	Regression	Prach SCT	qifeng	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PRACH	13wk08
+3340	TC_MT_PRACH_CHANNELIZER_RECEIVER_F4_2DSP	2	Regression	PrachReceiver MT	qifeng	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PRACH	13wk08
+3341	TC_MT_PRACH_CHANNELIZER_RECEIVER_F0_10MHZ_2DSP	2	Regression	PrachReceiver MT	qifeng	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PRACH	13wk08
+3342	TC_MT_PRACH_CHANNELIZER_RECEIVER_F1_10MHZ_2DSP	2	Regression	PrachReceiver MT	qifeng	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PRACH	13wk08
+3343	TC_MT_PRACH_CHANNELIZER_RECEIVER_F4_10MHZ_2DSP	2	Regression	PrachReceiver MT	qifeng	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PRACH	13wk08
+3337	TC_MT_PRACH_CHANNELIZER_RECEIVER_F0_2DSP	2	Regression	PrachReceiver MT	qifeng	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PRACH	13wk08
+3339	TC_MT_PRACH_CHANNELIZER_RECEIVER_F0_CONSEC_TTI_2DSP	2	Regression	PrachReceiver MT	qifeng	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PRACH	13wk08
+3338	TC_MT_PRACH_CHANNELIZER_RECEIVER_F1_2DSP	2	Regression	PrachReceiver MT	qifeng	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PRACH	13wk08
+3299	TM322_Prach_2DSP_2PIPE	2	Regression	Prach SCT	qifeng	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PRACH	13wk08
+3298	TM306_Prach_2DSP_2PIPE	2	Regression	Prach SCT	qifeng	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PRACH	13wk08
+3297	TM307_Prach_2DSP_2PIPE	2	Regression	Prach SCT	qifeng	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PRACH	13wk08
+3296	TM304_Prach_2DSP_2PIPE	2	Regression	Prach SCT	qifeng	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PRACH	13wk08
+3270	TM320_Prach_2DSP_2PIPE	2	Regression	Prach SCT	qifeng	(IBP) LNT3.0 -- Development of 961 2pipe feature phase I --PRACH	13wk08
+3350	TMSTD05_Mixed_UDconf2_2DSP_2PIPE	2	Regression	Combined SCT	yalqu	(IBP) LNT3.0 -- Development of 961 2pipe feature phase 2	13wk09
+3199	MT_Decoder_Timeout_EXCEPT_TestCase3	2	Regression	Decoder MT	shazhang	(IBP) RL25&RL35 -- Design case to cover the timeout situation in decoder	12wk34
+3198	MT_Decoder_Timeout_EXCEPT_TestCase2	2	Regression	Decoder MT	shazhang	(IBP) RL25&RL35 -- Design case to cover the timeout situation in decoder	12wk34
+3197	MT_Decoder_Timeout_EXCEPT_TestCase1	2	Regression	Decoder MT	shazhang	(IBP) RL25&RL35 -- Design case to cover the timeout situation in decoder	12wk34
+3354	TM227_5UE_1650_4PIPE	4	Regression	Pucch SCT	l86zhang	(EBP) LNT3.0 - LTE1650-B: Remove Wimax interference to TDLTE during UL subframe??#3/8, TDLTE conf.1:7 - for RL35	13wk13
+3355	TM227_5UE_1650_2PIPE	2	Regression	Pucch SCT	l86zhang	(EBP) LNT3.0 - LTE1650-B: Remove Wimax interference to TDLTE during UL subframe??#3/8, TDLTE conf.1:7 - for RL35	13wk13
+3356	TC_MT_RX_CALIBRATION_RECEIVER_FILTER	8	Regression	Calibration MT	qifeng	(EBP) LNT3.0 - LBT1748-B:TDD-ULPHY Tx Calibration Improvement - for trunk	13wk14
+3353	TC_MT_TX_CALIBRATION_RECEIVER_FILTER	8	Regression	Calibration MT	qifeng	(EBP) LNT3.0 - LBT1748-B:TDD-ULPHY Tx Calibration Improvement - for trunk	13wk13
+3424	TM150_Pusch_SupperCell_8Ue_8Ant_4PIPE	4	Regression	Pusch SCT	shazhang	(EBP) LNT3.0 -- LBT1744:TD-ULPHY internal feature porting from LNT3.1 to LNT3.0 -- PUSCH	13wk18
+3425	TM150_Pusch_SupperCell_3Ue_8Ant_4PIPE	4	Regression	Pusch SCT	shazhang	(EBP) LNT3.0 -- LBT1744:TD-ULPHY internal feature porting from LNT3.1 to LNT3.0 -- PUSCH	13wk18
+3426	TM111_Pusch_Harq_4Frame_4PIPE	4	Regression	Pusch SCT	shazhang	(EBP) LNT3.0 -- LBT1744:TD-ULPHY internal feature porting from LNT3.1 to LNT3.0 -- PUSCH	13wk18
+3427	TM105_Pusch_With_Measure_Check_8PIPE	8	Regression	Pusch SCT	yalqu	(EBP) LNT3.0 -- LBT1744:TD-ULPHY internal feature porting from LNT3.1 to LNT3.0 -- PUSCH	13wk18
+3428	TM111_Pusch_Harq_4Frame_8PIPE	8	Regression	Pusch SCT	yalqu	(EBP) LNT3.0 -- LBT1744:TD-ULPHY internal feature porting from LNT3.1 to LNT3.0 -- PUSCH	13wk18
+3572	TM105_Pusch_With_Measure_Check_2DSP_2PIPE	2	Regression	Pusch SCT	shazhang	(EBP) LNT3.0 -- LBT1744:TD-ULPHY internal feature porting from LNT3.1 to LNT3.0 -- PUSCH	13wk18
+3573	TM111_Pusch_Harq_4Frame_2DSP_2PIPE	2	Regression	Pusch SCT	shazhang	(EBP) LNT3.0 -- LBT1744:TD-ULPHY internal feature porting from LNT3.1 to LNT3.0 -- PUSCH	13wk18
+3414	TM362_Prach_F4_4PIPE	4	Regression	Prach SCT	qifeng	(EBP) LNT3.0 -- LBT1744:TD-ULPHY internal feature porting from LNT3.1 to LNT3.0 -- PRACH	13wk18
+3415	TM362_Prach_F4_8PIPE	8	Regression	Prach SCT	qifeng	(EBP) LNT3.0 -- LBT1744:TD-ULPHY internal feature porting from LNT3.1 to LNT3.0 -- PRACH	13wk18
+3410	TM361_Prach_F2_2PIPE	2	Regression	Prach SCT	qifeng	(EBP) LNT3.0 -- LBT1744:TD-ULPHY internal feature porting from LNT3.1 to LNT3.0 -- PRACH	13wk18
+3404	TM324_Prach_F2_PF_2PIPE	2	Regression	Prach SCT	qifeng	(EBP) LNT3.0 -- LBT1744:TD-ULPHY internal feature porting from LNT3.1 to LNT3.0 -- PRACH	13wk18
+3413	TM362_Prach_F4_2PIPE	2	Regression	Prach SCT	qifeng	(EBP) LNT3.0 -- LBT1744:TD-ULPHY internal feature porting from LNT3.1 to LNT3.0 -- PRACH	13wk18
+3412	TM361_Prach_F2_8PIPE	8	Regression	Prach SCT	qifeng	(EBP) LNT3.0 -- LBT1744:TD-ULPHY internal feature porting from LNT3.1 to LNT3.0 -- PRACH	13wk18
+3411	TM361_Prach_F2_4PIPE	4	Regression	Prach SCT	qifeng	(EBP) LNT3.0 -- LBT1744:TD-ULPHY internal feature porting from LNT3.1 to LNT3.0 -- PRACH	13wk18
+3403	TM323_Prach_F2_PF_2PIPE	2	Regression	Prach SCT	qifeng	(EBP) LNT3.0 -- LBT1744:TD-ULPHY internal feature porting from LNT3.1 to LNT3.0 -- PRACH	13wk18
+3395	TC_MT_PRACH_CASE_CELL_SETUP_DELETE_ABNORMAL	8	Regression	PrachReceiver MT	qifeng	(EBP) LNT3.0 -- LBT1744:TD-ULPHY internal feature porting from LNT3.1 to LNT3.0 -- PRACH	13wk18
+3396	TC_MT_PRACH_CASE_PRACH_SETUP_DELETE_ABNORMAL	8	Regression	PrachReceiver MT	qifeng	(EBP) LNT3.0 -- LBT1744:TD-ULPHY internal feature porting from LNT3.1 to LNT3.0 -- PRACH	13wk18
+3398	TC_MT_PRACH_CASE_UNEXPECTED_MSG_ABNORMAL	8	Regression	PrachReceiver MT	qifeng	(EBP) LNT3.0 -- LBT1744:TD-ULPHY internal feature porting from LNT3.1 to LNT3.0 -- PRACH	13wk18
+3399	TM331_Prach_F0_PF_2PIPE	2	Regression	Prach SCT	qifeng	(EBP) LNT3.0 -- LBT1744:TD-ULPHY internal feature porting from LNT3.1 to LNT3.0 -- PRACH	13wk18
+3400	TM332_Prach_F0_PF_2PIPE	2	Regression	Prach SCT	qifeng	(EBP) LNT3.0 -- LBT1744:TD-ULPHY internal feature porting from LNT3.1 to LNT3.0 -- PRACH	13wk18
+3401	TM340_Prach_F1_PF_2PIPE	2	Regression	Prach SCT	qifeng	(EBP) LNT3.0 -- LBT1744:TD-ULPHY internal feature porting from LNT3.1 to LNT3.0 -- PRACH	13wk18
+3402	TM341_Prach_F1_PF_2PIPE	2	Regression	Prach SCT	qifeng	(EBP) LNT3.0 -- LBT1744:TD-ULPHY internal feature porting from LNT3.1 to LNT3.0 -- PRACH	13wk18
+3409	TM360_Prach_F0_8PIPE	8	Regression	Prach SCT	qifeng	(EBP) LNT3.0 -- LBT1744:TD-ULPHY internal feature porting from LNT3.1 to LNT3.0 -- PRACH	13wk18
+3408	TM360_Prach_F0_4PIPE	4	Regression	Prach SCT	qifeng	(EBP) LNT3.0 -- LBT1744:TD-ULPHY internal feature porting from LNT3.1 to LNT3.0 -- PRACH	13wk18
+3407	TM360_Prach_F0_2PIPE	2	Regression	Prach SCT	qifeng	(EBP) LNT3.0 -- LBT1744:TD-ULPHY internal feature porting from LNT3.1 to LNT3.0 -- PRACH	13wk18
+3406	TM326_Prach_F2_PF_4PIPE	4	Regression	Prach SCT	qifeng	(EBP) LNT3.0 -- LBT1744:TD-ULPHY internal feature porting from LNT3.1 to LNT3.0 -- PRACH	13wk18
+3405	TM325_Prach_F2_PF_4PIPE	4	Regression	Prach SCT	qifeng	(EBP) LNT3.0 -- LBT1744:TD-ULPHY internal feature porting from LNT3.1 to LNT3.0 -- PRACH	13wk18
+3397	TC_MT_PRACH_CASE_CHANRESP_ABNORMAL	8	Regression	PrachReceiver MT	qifeng	(EBP) LNT3.0 -- LBT1744:TD-ULPHY internal feature porting from LNT3.1 to LNT3.0 -- PRACH	13wk18
+3383	TM221_SIMSRS_4PIPE	4	Regression	Pucch SCT	l86zhang	(EBP) LNT3.0 -- LBT1744:TD-ULPHY internal feature porting from LNT3.1 to LNT3.0 -- PUCCH	13wk18
+3382	TM221_SIMSRS_2DSP_2PIPE	2	Regression	Pucch SCT	l86zhang	(EBP) LNT3.0 -- LBT1744:TD-ULPHY internal feature porting from LNT3.1 to LNT3.0 -- PUCCH	13wk18
+3381	TM224_DeltaShift3_8PIPE	8	Regression	Pucch SCT	l86zhang	(EBP) LNT3.0 -- LBT1744:TD-ULPHY internal feature porting from LNT3.1 to LNT3.0 -- PUCCH	13wk18
+3380	TM224_DeltaShift3_4PIPE	4	Regression	Pucch SCT	l86zhang	(EBP) LNT3.0 -- LBT1744:TD-ULPHY internal feature porting from LNT3.1 to LNT3.0 -- PUCCH	13wk18
+3379	TM224_DeltaShift3_2DSP_2PIPE	2	Regression	Pucch SCT	l86zhang	(EBP) LNT3.0 -- LBT1744:TD-ULPHY internal feature porting from LNT3.1 to LNT3.0 -- PUCCH	13wk18
+3378	TC_MT_PUCCH_RECEIVER_ReceiveReqParam_8PIPE	8	Regression	PucchReceiver MT	l86zhang	(EBP) LNT3.0 -- LBT1744:TD-ULPHY internal feature porting from LNT3.1 to LNT3.0 -- PUCCH	13wk18
+3377	 TC_MT_PUCCH_RECEIVER_CellSetupParam_4PIPE	4	Regression	PucchReceiver MT	l86zhang	(EBP) LNT3.0 -- LBT1744:TD-ULPHY internal feature porting from LNT3.1 to LNT3.0 -- PUCCH	13wk18
+3376	TC_MT_PUCCH_RECEIVER_CellDeleteAbnormal_2PIPE	2	Regression	PucchReceiver MT	l86zhang	(EBP) LNT3.0 -- LBT1744:TD-ULPHY internal feature porting from LNT3.1 to LNT3.0 -- PUCCH	13wk18
+3645	TC_MT_PUCCH_RECEIVER_CellDeleteAbnormal_2PIPE_2DSP	2	Regression	PucchReceiver MT	l86zhang	(EBP) LNT3.0 -- LBT1744:TD-ULPHY internal feature porting from LNT3.1 to LNT3.0 -- PUCCH	13wk40
+3384	TM221_SIMSRS_8PIPE	8	Regression	Pucch SCT	l86zhang	(EBP) LNT3.0 -- LBT1744:TD-ULPHY internal feature porting from LNT3.1 to LNT3.0 -- PUCCH	13wk18
+3385	TM225_Measure_2DSP_2PIPE	2	Regression	Pucch SCT	l86zhang	(EBP) LNT3.0 -- LBT1744:TD-ULPHY internal feature porting from LNT3.1 to LNT3.0 -- PUCCH	13wk18
+3393	TM230_Format2x_8PIPE	8	Regression	Pucch SCT	l86zhang	(EBP) LNT3.0 -- LBT1744:TD-ULPHY internal feature porting from LNT3.1 to LNT3.0 -- PUCCH	13wk18
+3392	TM230_Format2x_4PIPE	4	Regression	Pucch SCT	l86zhang	(EBP) LNT3.0 -- LBT1744:TD-ULPHY internal feature porting from LNT3.1 to LNT3.0 -- PUCCH	13wk18
+3391	TM230_Format2x_2DSP_2PIPE	2	Regression	Pucch SCT	l86zhang	(EBP) LNT3.0 -- LBT1744:TD-ULPHY internal feature porting from LNT3.1 to LNT3.0 -- PUCCH	13wk18
+3390	TM229_Format1x_8PIPE	8	Regression	Pucch SCT	l86zhang	(EBP) LNT3.0 -- LBT1744:TD-ULPHY internal feature porting from LNT3.1 to LNT3.0 -- PUCCH	13wk18
+3389	TM229_Format1x_4PIPE	4	Regression	Pucch SCT	l86zhang	(EBP) LNT3.0 -- LBT1744:TD-ULPHY internal feature porting from LNT3.1 to LNT3.0 -- PUCCH	13wk18
+3394	TC_MT_RESOURCE_MANAGER_RECV_SETUP_SUCESS	4	Regression	PucchReceiver MT	l86zhang	(EBP) LNT3.0 -- LBT1744:TD-ULPHY internal feature porting from LNT3.1 to LNT3.0 -- PUCCH	13wk18
+3386	TM225_Measure_4PIPE	4	Regression	Pucch SCT	l86zhang	(EBP) LNT3.0 -- LBT1744:TD-ULPHY internal feature porting from LNT3.1 to LNT3.0 -- PUCCH	13wk18
+3387	TM225_Measure_8PIPE	8	Regression	Pucch SCT	l86zhang	(EBP) LNT3.0 -- LBT1744:TD-ULPHY internal feature porting from LNT3.1 to LNT3.0 -- PUCCH	13wk18
+3388	TM229_Format1x_2DSP_2PIPE	2	Regression	Pucch SCT	l86zhang	(EBP) LNT3.0 -- LBT1744:TD-ULPHY internal feature porting from LNT3.1 to LNT3.0 -- PUCCH	13wk18
+3370	TMSTD05_Mixed_UDconf2_2PIPE	2	Regression	Combined SCT	yalqu	(EBP) LNT3.0 -- LBT1744:TD-ULPHY internal feature porting from LNT3.1 to LNT3.0 -- Common	13wk18
+3367	TMSTD02_Mixed_UDconf1_4PIPE	4	Regression	Combined SCT	l86zhang	(EBP) LNT3.0 -- LBT1744:TD-ULPHY internal feature porting from LNT3.1 to LNT3.0 -- Common	13wk18
+3368	TMSTD03_Mixed_UDconf1_8PIPE	8	Regression	Combined SCT	l5zhou	(EBP) LNT3.0 -- LBT1744:TD-ULPHY internal feature porting from LNT3.1 to LNT3.0 -- Common	13wk18
+3369	TMSTD04_Mixed_UDconf1_8PIPE	8	Regression	Combined SCT	l5zhou	(EBP) LNT3.0 -- LBT1744:TD-ULPHY internal feature porting from LNT3.1 to LNT3.0 -- Common	13wk18
+3366	TMSTD01_Mixed_UDconf1_2PIPE	2	Regression	Combined SCT	qifeng	(EBP) LNT3.0 -- LBT1744:TD-ULPHY internal feature porting from LNT3.1 to LNT3.0 -- Common	13wk18
+3371	TMSTD06_Mixed_UDconf2_4PIPE	4	Regression	Combined SCT	l86zhang	(EBP) LNT3.0 -- LBT1744:TD-ULPHY internal feature porting from LNT3.1 to LNT3.0 -- Common	13wk18
+3372	TMSTD07_Mixed_UDconf2_8PIPE	8	Regression	Combined SCT	l5zhou	(EBP) LNT3.0 -- LBT1744:TD-ULPHY internal feature porting from LNT3.1 to LNT3.0 -- Common	13wk18
+3373	TC_MT_SRS_CASE_2PIPE_1UE_4PRB_Special_DTX	2	Regression	SrsReceiver MT	l5zhou	(EBP) LNT3.0 -- LBT1744:TD-ULPHY internal feature porting from LNT3.1 to LNT3.0 -- Common	13wk18
+3374	TC_MT_SRS_CASE_4PIPE_1UE_4PRB_Special_DTX	4	Regression	SrsReceiver MT	l5zhou	(EBP) LNT3.0 -- LBT1744:TD-ULPHY internal feature porting from LNT3.1 to LNT3.0 -- Common	13wk18
+3375	TC_MT_SRS_CASE_8PIPE_1UE_4PRB_Special_DTX	8	Regression	SrsReceiver MT	l5zhou	(EBP) LNT3.0 -- LBT1744:TD-ULPHY internal feature porting from LNT3.1 to LNT3.0 -- Common	13wk18
+3581	TM1209_UDconf1_20M_IRC_2DSP_2PIPE	2	Regression	Combined SCT	yalqu	(EBP) LNT3.0 - LTE1039-B-c : RL35TD Perf&Cap - 4Pipe Solution 	13wk21
+3582	TM1209_UDconf2_20M_IRC_2DSP_2PIPE	2	Regression	Combined SCT	yalqu	(EBP) LNT3.0 - LTE1039-B-c : RL35TD Perf&Cap - 4Pipe Solution 	13wk21
+3358	TM1304_UDconf1_20M_F1_4PIPE	4	Regression	Combined SCT	qifeng	(EBP) LNT3.0 - LTE1039-B-c : RL35TD Perf&Cap - 4Pipe Solution 	13wk18
+3584	TM1304_UDconf1_20M_F2_2DSP_2PIPE	2	Regression	Combined SCT	l86zhang	(EBP) LNT3.0 - LTE1039-B-c : RL35TD Perf&Cap - 4Pipe Solution 	13wk21
+3357	TM1304_UDconf1_20M_F1_2PIPE	2	Regression	Combined SCT	qifeng	(EBP) LNT3.0 - LTE1039-B-c : RL35TD Perf&Cap - 4Pipe Solution 	13wk18
+3583	TM1304_UDconf1_20M_F1_2DSP_2PIPE	2	Regression	Combined SCT	qifeng	(EBP) LNT3.0 - LTE1039-B-c : RL35TD Perf&Cap - 4Pipe Solution 	13wk21
+3580	TM1209_UDconf2_20M_IRC_2PIPE	2	Regression	Combined SCT	yalqu	(EBP) LNT3.0 - LTE1039-B-c : RL35TD Perf&Cap - 4Pipe Solution 	13wk18
+3579	TM1209_UDconf2_20M_IRC_4PIPE	4	Regression	Combined SCT	yalqu	(EBP) LNT3.0 - LTE1039-B-c : RL35TD Perf&Cap - 4Pipe Solution 	13wk18
+3578	TM1209_UDconf2_20M_IRC_8PIPE	8	Regression	Combined SCT	yalqu	(EBP) LNT3.0 - LTE1039-B-c : RL35TD Perf&Cap - 4Pipe Solution 	13wk18
+3365	TM1209_UDconf1_20M_IRC_2PIPE	2	Regression	Combined SCT	yalqu	(EBP) LNT3.0 - LTE1039-B-c : RL35TD Perf&Cap - 4Pipe Solution 	13wk18
+3364	TM1209_UDconf1_20M_IRC_4PIPE	4	Regression	Combined SCT	qifeng	(EBP) LNT3.0 - LTE1039-B-c : RL35TD Perf&Cap - 4Pipe Solution 	13wk18
+3363	TM1209_UDconf1_20M_IRC_8PIPE	8	Regression	Combined SCT	qifeng	(EBP) LNT3.0 - LTE1039-B-c : RL35TD Perf&Cap - 4Pipe Solution 	13wk18
+3362	TM1304_UDconf1_20M_F2_8PIPE	8	Regression	Combined SCT	l86zhang	(EBP) LNT3.0 - LTE1039-B-c : RL35TD Perf&Cap - 4Pipe Solution 	13wk18
+3361	TM1304_UDconf1_20M_F2_4PIPE	4	Regression	Combined SCT	l86zhang	(EBP) LNT3.0 - LTE1039-B-c : RL35TD Perf&Cap - 4Pipe Solution 	13wk18
+3360	TM1304_UDconf1_20M_F2_2PIPE	2	Regression	Combined SCT	l86zhang	(EBP) LNT3.0 - LTE1039-B-c : RL35TD Perf&Cap - 4Pipe Solution 	13wk18
+3359	TM1304_UDconf1_20M_F1_8PIPE	8	Regression	Combined SCT	qifeng	(EBP) LNT3.0 - LTE1039-B-c : RL35TD Perf&Cap - 4Pipe Solution 	13wk18
+3128	TM323_Prach_F2_Measure_4PIPE	4	Regression	Prach SCT	qifeng	(IBP) RL25&RL35 -- Fix Prach interference calculation	12wk30
+3137	TM340_Prach_F4_Measure_8PIPE	8	Regression	Prach SCT	qifeng	(IBP) RL25&RL35 -- Fix Prach interference calculation	12wk30
+3127	TM305_Prach_F0_Measure_2PIPE	2	Regression	Prach SCT	qifeng	(IBP) RL25&RL35 -- Fix Prach interference calculation	12wk30
+2768	TM1305_Mixed_RI_CA_2DSP_2PIPE	2	Regression	Combined SCT	l5zhou	(EBP) LNT4.0 - LTE1558-A-c : Downlink carrier aggregation - Phase A - Blind activation of configured Scell	13wk22
+3587	TM1306_Mixed_RI_CA_2DSP_2PIPE	2	Regression	Combined SCT	qifeng	(EBP) LNT4.0 - LTE1558-A-c : Downlink carrier aggregation - Phase A - Blind activation of configured Scell	13wk24
+3589	TM1306_Mixed_RI_CA_2PIPE	2	Regression	Combined SCT	qifeng	(EBP) LNT4.0 - LTE1558-A-c : Downlink carrier aggregation - Phase A - Blind activation of configured Scell	13wk24
+3588	TM1305_Mixed_RI_CA_2PIPE	2	Regression	Combined SCT	l5zhou	(EBP) LNT4.0 - LTE1558-A-c : Downlink carrier aggregation - Phase A - Blind activation of configured Scell	13wk24
+3598	TC_MT_PUSCH_DATA_FLOW_2PIPE_CASE_An_CA_2DSP	2	Regression	PuschReceiver MT	l5zhou	(EBP) LNT4.0 - LTE1558-A-d : Downlink carrier aggregation - Data transmission and basic scheduling of UE with non-GBR data in Pcell	13wk28
+3597	TC_MT_PUSCH_DATA_FLOW_2PIPE_CASE_An_CA	2	Regression	PuschReceiver MT	l5zhou	(EBP) LNT4.0 - LTE1558-A-d : Downlink carrier aggregation - Data transmission and basic scheduling of UE with non-GBR data in Pcell	13wk28
+3596	TM160_Pusch_An_CA_2DSP_2PIPE	2	Regression	Pusch SCT	l5zhou	(EBP) LNT4.0 - LTE1558-A-d : Downlink carrier aggregation - Data transmission and basic scheduling of UE with non-GBR data in Pcell	13wk28
+3595	TM160_Pusch_An_CA_2PIPE	2	Regression	Pusch SCT	l5zhou	(EBP) LNT4.0 - LTE1558-A-d : Downlink carrier aggregation - Data transmission and basic scheduling of UE with non-GBR data in Pcell	13wk28
+3625	TM161_Pusch_An_CA_2DSP_2PIPE	2	Regression	Pusch SCT	qifeng	(EBP) LNT4.0 - LTE1558-A-g : Downlink carrier aggregation - Support TDD ULDL subframe configuration 2 data transmission	13wk35
+3628	TM161_Pusch_An_CA_8PIPE	8	Regression	Pusch SCT	qifeng	(EBP) LNT4.0 - LTE1558-A-g : Downlink carrier aggregation - Support TDD ULDL subframe configuration 2 data transmission	13wk35
+3627	TM161_Pusch_An_CA_4PIPE	4	Regression	Pusch SCT	qifeng	(EBP) LNT4.0 - LTE1558-A-g : Downlink carrier aggregation - Support TDD ULDL subframe configuration 2 data transmission	13wk35
+3626	TM161_Pusch_An_CA_2PIPE	2	Regression	Pusch SCT	qifeng	(EBP) LNT4.0 - LTE1558-A-g : Downlink carrier aggregation - Support TDD ULDL subframe configuration 2 data transmission	13wk35
+3600	TM231_Format1bCsConf1_2DSP_2PIPE	2	Regression	Pucch SCT	l86zhang	(EBP) LNT4.0 - LTE1558-A-e: Data transmission and basic scheduling of UE with non-GBR data in Pcell and Scell 	13wk32
+3601	TM231_Format1bCsConf1_2PIPE	2	Regression	Pucch SCT	l86zhang	(EBP) LNT4.0 - LTE1558-A-e: Data transmission and basic scheduling of UE with non-GBR data in Pcell and Scell 	13wk32
+3624	TM1305_Mixed_RI_CA_8PIPE	8	Regression	Combined SCT	l86zhang	(EBP) LNT4.0 - LTE1558-B-a/-h: Downlink carrier aggregation - 4T4R aggregated cells setup LTE1558-B-h: Downlink carrier aggregation -8T8R aggregated cells setup with SCell fixed TM3	13wk36
+3623	TM1305_Mixed_RI_CA_4PIPE	4	Regression	Combined SCT	l86zhang	(EBP) LNT4.0 - LTE1558-B-a/-h: Downlink carrier aggregation - 4T4R aggregated cells setup LTE1558-B-h: Downlink carrier aggregation -8T8R aggregated cells setup with SCell fixed TM3	13wk36
+3621	TM1306_Mixed_RI_CA_4PIPE	4	Regression	Combined SCT	l86zhang	(EBP) LNT4.0 - LTE1558-B-a/-h: Downlink carrier aggregation - 4T4R aggregated cells setup LTE1558-B-h: Downlink carrier aggregation -8T8R aggregated cells setup with SCell fixed TM3	13wk36
+3613	TM231_Format1bCsConf1_4PIPE	4	Regression	Pucch SCT	l86zhang	(EBP) LNT4.0 - LTE1558-B-a/-h: Downlink carrier aggregation - 4T4R aggregated cells setup LTE1558-B-h: Downlink carrier aggregation -8T8R aggregated cells setup with SCell fixed TM3	13wk36
+3614	TM231_Format1bCsConf1_8PIPE	8	Regression	Pucch SCT	l86zhang	(EBP) LNT4.0 - LTE1558-B-a/-h: Downlink carrier aggregation - 4T4R aggregated cells setup LTE1558-B-h: Downlink carrier aggregation -8T8R aggregated cells setup with SCell fixed TM3	13wk36
+3615	TM232_Format1bCsConf2_4PIPE	4	Regression	Pucch SCT	l86zhang	(EBP) LNT4.0 - LTE1558-B-a/-h: Downlink carrier aggregation - 4T4R aggregated cells setup LTE1558-B-h: Downlink carrier aggregation -8T8R aggregated cells setup with SCell fixed TM3	13wk36
+3616	TM232_Format1bCsConf2_8PIPE	8	Regression	Pucch SCT	l86zhang	(EBP) LNT4.0 - LTE1558-B-a/-h: Downlink carrier aggregation - 4T4R aggregated cells setup LTE1558-B-h: Downlink carrier aggregation -8T8R aggregated cells setup with SCell fixed TM3	13wk36
+3617	TC_MT_PUSCH_DATA_FLOW_4PIPE_CASE_An_CA	4	Regression	PuschReceiver MT	l86zhang	(EBP) LNT4.0 - LTE1558-B-a/-h: Downlink carrier aggregation - 4T4R aggregated cells setup LTE1558-B-h: Downlink carrier aggregation -8T8R aggregated cells setup with SCell fixed TM3	13wk40
+3618	TC_MT_PUSCH_DATA_FLOW_8PIPE_CASE_An_CA	8	Regression	PuschReceiver MT	l86zhang	(EBP) LNT4.0 - LTE1558-B-a/-h: Downlink carrier aggregation - 4T4R aggregated cells setup LTE1558-B-h: Downlink carrier aggregation -8T8R aggregated cells setup with SCell fixed TM3	13wk40
+3619	TM160_Pusch_An_CA_4PIPE	4	Regression	Pusch SCT	l86zhang	(EBP) LNT4.0 - LTE1558-B-a/-h: Downlink carrier aggregation - 4T4R aggregated cells setup LTE1558-B-h: Downlink carrier aggregation -8T8R aggregated cells setup with SCell fixed TM3	13wk36
+3620	TM160_Pusch_An_CA_8PIPE	8	Regression	Pusch SCT	l86zhang	(EBP) LNT4.0 - LTE1558-B-a/-h: Downlink carrier aggregation - 4T4R aggregated cells setup LTE1558-B-h: Downlink carrier aggregation -8T8R aggregated cells setup with SCell fixed TM3	13wk36
+3622	TM1306_Mixed_RI_CA_8PIPE	8	Regression	Combined SCT	l86zhang	(EBP) LNT4.0 - LTE1558-B-a/-h: Downlink carrier aggregation - 4T4R aggregated cells setup LTE1558-B-h: Downlink carrier aggregation -8T8R aggregated cells setup with SCell fixed TM3	13wk36
+2584	TM102_Pusch_Uci_Sequence_4PIPE	4	Regression	Pusch SCT	shazhang	(EBP) LNT4.0 - LTE1558-B-a/-h: Downlink carrier aggregation - 4T4R aggregated cells setup LTE1558-B-h: Downlink carrier aggregation -8T8R aggregated cells setup with SCell fixed TM3	13wk36
+3629	TM260_TM9_8PIPE	8	Regression	Pucch SCT	qifeng	(EBP) LNT4.0 - LTE1543-A-b1 TM9 - One Layer transmission with fixed codebook precoding and fallback to TxDiv with invalid PMI 	13wk36
+3604	TC_MT_CHANNELIZER_SNAPSHOT_2PIPE_10M_2DSP_CASE_COMP	2	Regression	Channelizer MT	yalqu	(EBP) LNT4.0 - LTE1402-A-a2: Uplink intra eNode B CoMP - ulComp activation 10MHz 3 cells -implementation	13wk40
+3607	TC_MT_PUSCH_DATA_FLOW_2PIPE_CASE_3CELL_COMP	2	Regression	PuschReceiver MT	yalqu	(EBP) LNT4.0 - LTE1402-A-a2: Uplink intra eNode B CoMP - ulComp activation 10MHz 3 cells -implementation	13wk36
+3646	TC_MT_PUSCH_DATA_FLOW_2PIPE_CASE_3CELL_20MHz_Hopping_COMP_MULTIUE	2	Regression	PuschReceiver MT	yalqu	(EBP) LNT4.0 - LTE1402-A-a2: Uplink intra eNode B CoMP - ulComp activation 10MHz 3 cells -implementation	13wk40
+3608	TC_MT_PUSCH_DATA_FLOW_2PIPE_CASE_2CELL_COMP_MULTIUE	2	Regression	PuschReceiver MT	yalqu	(EBP) LNT4.0 - LTE1402-A-a2: Uplink intra eNode B CoMP - ulComp activation 10MHz 3 cells -implementation	13wk36
+3610	TM170_Pusch_Hopping_MultiUe_3Cell_Comp_2DSP_2PIPE	2	Regression	Pusch SCT	yalqu	(EBP) LNT4.0 - LTE1402-A-a2: Uplink intra eNode B CoMP - ulComp activation 10MHz 3 cells -implementation	13wk40
+3649	TM1209_UDconf2_3Cell_20M_IRC_Comp_2DSP_2PIPE	2	Regression	Pusch SCT	yalqu	(EBP) LNT4.0 - LTE1402-A-a2: Uplink intra eNode B CoMP - ulComp activation 10MHz 3 cells -implementation	13wk40
+3648	TM1209_UDconf1_3Cell_20M_IRC_Comp_2DSP_2PIPE	2	Regression	Pusch SCT	yalqu	(EBP) LNT4.0 - LTE1402-A-a2: Uplink intra eNode B CoMP - ulComp activation 10MHz 3 cells -implementation	13wk40
+3606	TC_MT_PUSCH_DATA_FLOW_2PIPE_CASE_2CELL_COMP	2	Regression	PuschReceiver MT	yalqu	(EBP) LNT4.0 - LTE1402-A-a2: Uplink intra eNode B CoMP - ulComp activation 10MHz 3 cells -implementation	13wk36
+3605	TC_MT_PUSCH_CTRL_FLOW_2PIPE_CASE_CELL_SETUP_COMP	2	Regression	PuschReceiver MT	yalqu	(EBP) LNT4.0 - LTE1402-A-a2: Uplink intra eNode B CoMP - ulComp activation 10MHz 3 cells -implementation	13wk36
+3647	TM171_Pusch_MultiUe_3Cell_20M_Comp_2DSP_2PIPE	2	Regression	Pusch SCT	yalqu	(EBP) LNT4.0 - LTE1402-A-a2: Uplink intra eNode B CoMP - ulComp activation 10MHz 3 cells -implementation	13wk40
+3603	TC_MT_CHANNELIZER_PUSCH_2PIPE_PERCORE_10M_2DSP_CASE_COMP	2	Regression	Channelizer MT	yalqu	(EBP) LNT4.0 - LTE1402-A-a2: Uplink intra eNode B CoMP - ulComp activation 10MHz 3 cells -implementation	13wk36
+3602	TC_MT_CHANNELIZER_RACH_2PIPE_PERCORE_F2_10M_2DSP_CASE_35_COMP	2	Regression	Channelizer MT	yalqu	(EBP) LNT4.0 - LTE1402-A-a2: Uplink intra eNode B CoMP - ulComp activation 10MHz 3 cells -implementation	13wk40
+3609	TM170_Pusch_MultiUe_3Cell_Comp_2DSP_2PIPE	2	Regression	Pusch SCT	yalqu	(EBP) LNT4.0 - LTE1402-A-a2: Uplink intra eNode B CoMP - ulComp activation 10MHz 3 cells -implementation	13wk40
+3696	TC_MT_PUCCH_RECEIVER_NoUeSchedule_2PIPE	2	NewFeature	PucchReceiver MT	l86zhang	(IBP) LNT4.0/LNT3.0/LNT3.2 -- LBT2019-C-a, CRL1078 Output Interference Level for No UE Scheduled Scenario - PUCCH cell measurement when UEnum = 0	13wk44
+3697	TC_MT_PUCCH_RECEIVER_NoUeSchedule_4PIPE	4	NewFeature	PucchReceiver MT	l86zhang	(IBP) LNT4.0/LNT3.0/LNT3.2 -- LBT2019-C-a, CRL1078 Output Interference Level for No UE Scheduled Scenario - PUCCH cell measurement when UEnum = 0	13wk44
+3698	TC_MT_PUCCH_RECEIVER_NoUeSchedule_8PIPE	8	NewFeature	PucchReceiver MT	l86zhang	(IBP) LNT4.0/LNT3.0/LNT3.2 -- LBT2019-C-a, CRL1078 Output Interference Level for No UE Scheduled Scenario - PUCCH cell measurement when UEnum = 0	13wk44
+3612	TM232_Format1bCsConf2_2DSP_2PIPE	2	Regression	Pucch SCT	l86zhang	(EBP) LNT4.0 - LTE1558-A-g : Downlink carrier aggregation - Support TDD ULDL subframe configuration 2 data transmission	13wk36
+3611	TM232_Format1bCsConf2_2PIPE	2	Regression	Pucch SCT	l86zhang	(EBP) LNT4.0 - LTE1558-A-g : Downlink carrier aggregation - Support TDD ULDL subframe configuration 2 data transmission	13wk36
+3685	TM233_DRX_Format1bCsConf1_2DSP_2PIPE	2	Regression	Pucch SCT	l86zhang	(EBP) LNT4.0 - LTE1558-B-f: Downlink carrier aggregation - DL CA interworking with DRX	13wk40
+3686	TM233_DRX_Format1bCsConf1_4PIPE	4	Regression	Pucch SCT	l86zhang	(EBP) LNT4.0 - LTE1558-B-f: Downlink carrier aggregation - DL CA interworking with DRX	13wk40
+3687	TM234_DRX_Format1bCsConf2_8PIPE	8	Regression	Pucch SCT	l86zhang	(EBP) LNT4.0 - LTE1558-B-f: Downlink carrier aggregation - DL CA interworking with DRX	13wk40
+3634	TC_MT_PUCCH_RECEIVER_15ueSrAckCqiMeas_1PIPE	1	Regression	PucchReceiver MT	qifeng	(EBP) LNT4.0 - LTE1730-B-e1 CRL1022 BTSOM in RL35Ir branch back to trunk in RL45- redesign - Single TRX configuration support with FZNN - for HZ BTSOM and other common SCs	13wk40
+3640	TC_MT_CHANNELIZER_SNAPSHOT_1PIPE_20M_CASE	1	Regression	Channelizer MT	qifeng	(EBP) LNT4.0 - LTE1730-B-e1 CRL1022 BTSOM in RL35Ir branch back to trunk in RL45- redesign - Single TRX configuration support with FZNN - for HZ BTSOM and other common SCs	13wk40
+3641	TC_MT_CHANNELIZER_SNAPSHOT_1PIPE_20M_CASE_Ring	1	Regression	Channelizer MT	qifeng	(EBP) LNT4.0 - LTE1730-B-e1 CRL1022 BTSOM in RL35Ir branch back to trunk in RL45- redesign - Single TRX configuration support with FZNN - for HZ BTSOM and other common SCs	13wk40
+3642	TC_MT_SRS_CASE_1PIPE_15UE_24PRB_20M_Special	1	Regression	Channelizer MT	qifeng	(EBP) LNT4.0 - LTE1730-B-e1 CRL1022 BTSOM in RL35Ir branch back to trunk in RL45- redesign - Single TRX configuration support with FZNN - for HZ BTSOM and other common SCs	13wk40
+3643	TC_MT_PUSCH_DATA_FLOW_1PIPE_CASE_MultiUe001	1	Regression	PuschReceiver MT	qifeng	(EBP) LNT4.0 - LTE1730-B-e1 CRL1022 BTSOM in RL35Ir branch back to trunk in RL45- redesign - Single TRX configuration support with FZNN - for HZ BTSOM and other common SCs	13wk40
+3638	TC_MT_CHANNELIZER_RACH_1PIPE_PERCORE_F2_20M_CASE_35	1	Regression	Channelizer MT	qifeng	(EBP) LNT4.0 - LTE1730-B-e1 CRL1022 BTSOM in RL35Ir branch back to trunk in RL45- redesign - Single TRX configuration support with FZNN - for HZ BTSOM and other common SCs	13wk40
+3637	TC_MT_CHANNELIZER_RACH_1PIPE_PERCORE_F0_20M_CASE_12	1	Regression	Channelizer MT	qifeng	(EBP) LNT4.0 - LTE1730-B-e1 CRL1022 BTSOM in RL35Ir branch back to trunk in RL45- redesign - Single TRX configuration support with FZNN - for HZ BTSOM and other common SCs	13wk40
+3636	TC_MT_CHANNELIZER_SRS_1PIPE_PERCORE_20M_CASE	1	Regression	Channelizer MT	qifeng	(EBP) LNT4.0 - LTE1730-B-e1 CRL1022 BTSOM in RL35Ir branch back to trunk in RL45- redesign - Single TRX configuration support with FZNN - for HZ BTSOM and other common SCs	13wk40
+3632	TC_MT_PRACH_RECEIVER_F2_20MHZ_1PIPE	1	Regression	PrachReceiver MT	qifeng	(EBP) LNT4.0 - LTE1730-B-e1 CRL1022 BTSOM in RL35Ir branch back to trunk in RL45- redesign - Single TRX configuration support with FZNN - for HZ BTSOM and other common SCs	13wk40
+3644	TC_MT_SRS_CASE_1PIPE_15UE_24PRB_20M_Special	1	Regression	SrsReceiver MT	qifeng	(EBP) LNT4.0 - LTE1730-B-e1 CRL1022 BTSOM in RL35Ir branch back to trunk in RL45- redesign - Single TRX configuration support with FZNN - for HZ BTSOM and other common SCs	13wk40
+3639	TC_MT_CHANNELIZER_RACH_1PIPE_PERCORE_F4_20M_CASE_57	1	Regression	Channelizer MT	qifeng	(EBP) LNT4.0 - LTE1730-B-e1 CRL1022 BTSOM in RL35Ir branch back to trunk in RL45- redesign - Single TRX configuration support with FZNN - for HZ BTSOM and other common SCs	13wk40
+3630	TMSTD01_1pipe_Mixed_UDconf1_2DSP_2PIPE	2	Regression	Combined SCT	qifeng	(EBP) LNT4.0 - LTE1730-B-e1 CRL1022 BTSOM in RL35Ir branch back to trunk in RL45- redesign - Single TRX configuration support with FZNN - for HZ BTSOM and other common SCs	13wk40
+3631	TC_MT_PRACH_RECEIVER_F0_20MHZ_1PIPE	1	Regression	PrachReceiver MT	qifeng	(EBP) LNT4.0 - LTE1730-B-e1 CRL1022 BTSOM in RL35Ir branch back to trunk in RL45- redesign - Single TRX configuration support with FZNN - for HZ BTSOM and other common SCs	13wk40
+3633	TC_MT_PRACH_RECEIVER_F4_20MHZ_1PIPE	1	Regression	PrachReceiver MT	qifeng	(EBP) LNT4.0 - LTE1730-B-e1 CRL1022 BTSOM in RL35Ir branch back to trunk in RL45- redesign - Single TRX configuration support with FZNN - for HZ BTSOM and other common SCs	13wk40
+3635	TC_MT_CHANNELIZER_PUCH_1PIPE_PERCORE_20M_CASE	1	Regression	Channelizer MT	qifeng	(EBP) LNT4.0 - LTE1730-B-e1 CRL1022 BTSOM in RL35Ir branch back to trunk in RL45- redesign - Single TRX configuration support with FZNN - for HZ BTSOM and other common SCs	13wk40
+3667	TM163_TM9_8PIPE	8	Regression	Pusch SCT	qifeng	"(EBP) LNT4.0 - LTE1543-A-b2	TM9 - One Layer transmission with Dynamically Selected Precoding and fallback to TxDiv with invalid PMI   LTE1543-A-c TM9 - Two Layers transmission with Dynamically Selected Precoding and fallback to TxDiv with invalid PMI "	13wk40
+3660	TC_MT_PUSCH_DATA_FLOW_8PIPE_CASE_TM9_RI_MoreThan2Bits	8	Regression	PuschReceiver MT	qifeng	"(EBP) LNT4.0 - LTE1543-A-b2	TM9 - One Layer transmission with Dynamically Selected Precoding and fallback to TxDiv with invalid PMI   LTE1543-A-c TM9 - Two Layers transmission with Dynamically Selected Precoding and fallback to TxDiv with invalid PMI "	13wk40
+3689	TC_MT_SRS_CASE_4PIPE_1UE_ControlFlow_Abnormal_SuperCell		Regression	SrsReceiver MT	l5zhou	"(EBP) LNT4.0 - LTE1730-B-c	CRL1022 BTSOM in RL35Ir branch back to trunk in RL45- Direct porting - supercell configurations for 2 pipe RRU(for FZND single mode)"	13wk40
+3681	TC_MT_PUSCH_DATA_FLOW_4PIPE_CASE_IRC_3Ant	4	NewFeature		qifeng	"(EBP) LNT4.0 - LTE1730-B-f1	CRL1022 BTSOM in RL35Ir branch back to trunk in RL45- redesign - Cell Combination - single mode, 1 cell - for HZ BTSOM and other common SCs"	13wk40
+3655	TC_MT_CHANNELIZER_SC_RACH_4PIPE_20M_CASE	4	Regression	Channelizer MT	qifeng	"(EBP) LNT4.0 - LTE1730-B-f1	CRL1022 BTSOM in RL35Ir branch back to trunk in RL45- redesign - Cell Combination - single mode, 1 cell - for HZ BTSOM and other common SCs"	13wk40
+3650	TC_MT_CHANNELIZER_SC_PUCH_0P_CASE	4	Regression	Channelizer MT	qifeng	"(EBP) LNT4.0 - LTE1730-B-f1	CRL1022 BTSOM in RL35Ir branch back to trunk in RL45- redesign - Cell Combination - single mode, 1 cell - for HZ BTSOM and other common SCs"	13wk40
+3688	TC_MT_PUSCH_DATA_FLOW_4PIPE_CASE_IRC_FullPrb_SingleUe_3Ant	4	Regression	PuschReceiver MT	qifeng	"(EBP) LNT4.0 - LTE1730-B-f1	CRL1022 BTSOM in RL35Ir branch back to trunk in RL45- redesign - Cell Combination - single mode, 1 cell - for HZ BTSOM and other common SCs"	13wk40
+3680	TM1302_Mixed_RI_SuperCell_8Ant_4PIPE	4	Regression	Combined SCT	qifeng	"(EBP) LNT4.0 - LTE1730-B-f1	CRL1022 BTSOM in RL35Ir branch back to trunk in RL45- redesign - Cell Combination - single mode, 1 cell - for HZ BTSOM and other common SCs"	13wk40
+3674	TM250_SUPERCELL_SAME_DATA_4PIPE	4	Regression	Pucch SCT	qifeng	"(EBP) LNT4.0 - LTE1730-B-f1	CRL1022 BTSOM in RL35Ir branch back to trunk in RL45- redesign - Cell Combination - single mode, 1 cell - for HZ BTSOM and other common SCs"	13wk40
+3675	TM251_SUPERCELL_DIFF_DATA_4PIPE	4	Regression	Pucch SCT	qifeng	"(EBP) LNT4.0 - LTE1730-B-f1	CRL1022 BTSOM in RL35Ir branch back to trunk in RL45- redesign - Cell Combination - single mode, 1 cell - for HZ BTSOM and other common SCs"	13wk40
+3669	TM1304_SUPERCELL_20MHZ_RI_12ANT_4PIPE	4	Regression	Combined SCT	qifeng	"(EBP) LNT4.0 - LTE1730-B-f1	CRL1022 BTSOM in RL35Ir branch back to trunk in RL45- redesign - Cell Combination - single mode, 1 cell - for HZ BTSOM and other common SCs"	13wk40
+3668	TM1304_SUPERCELL_20MHz_11ANT_4PIPE	4	Regression	Combined SCT	qifeng	"(EBP) LNT4.0 - LTE1730-B-f1	CRL1022 BTSOM in RL35Ir branch back to trunk in RL45- redesign - Cell Combination - single mode, 1 cell - for HZ BTSOM and other common SCs"	13wk40
+3666	TC_MT_SRS_CASE_4PIPE_1UE_SuperCell_INP	4	Regression	SrsReceiver MT	l5zhou	"(EBP) LNT4.0 - LTE1730-B-f1	CRL1022 BTSOM in RL35Ir branch back to trunk in RL45- redesign - Cell Combination - single mode, 1 cell - for HZ BTSOM and other common SCs"	13wk40
+3665	TC_MT_PRACH_CHANNELIZER_RECEIVER_SUPERCELL_F0_4PIPE	4	Regression	PrachReceiver MT	qifeng	"(EBP) LNT4.0 - LTE1730-B-f1	CRL1022 BTSOM in RL35Ir branch back to trunk in RL45- redesign - Cell Combination - single mode, 1 cell - for HZ BTSOM and other common SCs"	13wk40
+3664	TC_MT_PUCCH_RECEIVER_5ueSupercellMixCuID_4PIPE	4	Regression	PucchReceiver MT	qifeng	"(EBP) LNT4.0 - LTE1730-B-f1	CRL1022 BTSOM in RL35Ir branch back to trunk in RL45- redesign - Cell Combination - single mode, 1 cell - for HZ BTSOM and other common SCs"	13wk40
+3651	TC_MT_CHANNELIZER_SC_PUCH_2PIPE_20M_CASE	4	Regression	Channelizer MT	qifeng	"(EBP) LNT4.0 - LTE1730-B-f1	CRL1022 BTSOM in RL35Ir branch back to trunk in RL45- redesign - Cell Combination - single mode, 1 cell - for HZ BTSOM and other common SCs"	13wk40
+3652	TC_MT_CHANNELIZER_SC_PUCH_4PIPE_20M_CASE	4	Regression	Channelizer MT	qifeng	"(EBP) LNT4.0 - LTE1730-B-f1	CRL1022 BTSOM in RL35Ir branch back to trunk in RL45- redesign - Cell Combination - single mode, 1 cell - for HZ BTSOM and other common SCs"	13wk40
+3653	TC_MT_CHANNELIZER_SC_RACH_0P_CASE	4	Regression	Channelizer MT	qifeng	"(EBP) LNT4.0 - LTE1730-B-f1	CRL1022 BTSOM in RL35Ir branch back to trunk in RL45- redesign - Cell Combination - single mode, 1 cell - for HZ BTSOM and other common SCs"	13wk40
+3654	TC_MT_CHANNELIZER_SC_RACH_2PIPE_20M_CASE	4	Regression	Channelizer MT	qifeng	"(EBP) LNT4.0 - LTE1730-B-f1	CRL1022 BTSOM in RL35Ir branch back to trunk in RL45- redesign - Cell Combination - single mode, 1 cell - for HZ BTSOM and other common SCs"	13wk40
+3662	TC_MT_PUCCH_RECEIVER_5ueSupercellCuID0_4PIPE	4	Regression	PucchReceiver MT	qifeng	"(EBP) LNT4.0 - LTE1730-B-f1	CRL1022 BTSOM in RL35Ir branch back to trunk in RL45- redesign - Cell Combination - single mode, 1 cell - for HZ BTSOM and other common SCs"	13wk40
+3663	TC_MT_PUCCH_RECEIVER_5ueSupercellCuID1_4PIPE	4	Regression	PucchReceiver MT	qifeng	"(EBP) LNT4.0 - LTE1730-B-f1	CRL1022 BTSOM in RL35Ir branch back to trunk in RL45- redesign - Cell Combination - single mode, 1 cell - for HZ BTSOM and other common SCs"	13wk40
+3683	TC_MT_PUSCH_DATA_FLOW_8PIPE_CASE_OnePrb_TwoUe004	8	Regression	PuschReceiver MT	l86zhang	"(EBP) LNT4.0 - LTE1336-A-b	Interference aware UL power control - Algorithm"	13wk40
+3684	TC_MT_PUSCH_DATA_FLOW_4PIPE_CASE_ANRI_64QAM	4	Regression	PuschReceiver MT	l86zhang	"(EBP) LNT4.0 - LTE44-A-a	64 QAM in UL - TDD"	13wk40
+3690	TM918_2DSP_2PIPE	2	NewFeature	Other SCT	yalqu	(EBP) LNT4.0 - LTE1402-A-e:Uplink intra eNode B CoMP - Full support of cell disabling with ulComp	13wk44
+3691	TM1310_Mixed_RIDTX_8PIPE	8	NewFeature	Combined SCT	l5zhou	(EBP) LNT4.0 - LTE1543-A-c:TM9 - Two Layers transmission with Dynamically Selected Precoding and fallback to TxDiv with invalid PMI	13wk42
+3692	TM_PRACH_HighSpeed_CASE01_2DSP	2	NewFeature	Prach SCT	qifeng	(EBP) LNT4.0 - LTE048-g1: HST Prach changes	13wk44
+3693	TM_PRACH_HighSpeed_CASE02_2DSP	2	NewFeature	Prach SCT	qifeng	(EBP) LNT4.0 - LTE048-g1: HST Prach changes	13wk44
+3694	TM_PRACH_HighSpeed_CASE03_2DSP	2	NewFeature	Prach SCT	qifeng	(EBP) LNT4.0 - LTE048-g1: HST Prach changes	13wk44
+3695	TM_PRACH_HighSpeed_CASE04_2DSP	2	NewFeature	Prach SCT	qifeng	(EBP) LNT4.0 - LTE048-g1: HST Prach changes	13wk44
+3700	TC_MT_PUSCH_DATA_FLOW_4PIPE_CASE_ CA_SCELLID	4	NewFeature	PucchReceiver MT	l86zhang	(EBP) LNT4.0 - LTE1558-B-f leftover: SCellID IFS Adaption	13wk44
+3699	TC_MT_PUCCH_RECEIVER_CASCELLID_4PIPE	4	NewFeature	PucchReceiver MT	l86zhang	(EBP) LNT4.0 - LTE1558-B-f leftover: SCellID IFS Adaption	13wk44
+3701	MT_Decoder_CA_SCELLID_CASE	2	NewFeature	Decoder MT	l86zhang	(EBP) LNT4.0 - LTE1558-B-f leftover: SCellID IFS Adaption	13wk44
+3136	TC_MT_CHANNELIZER_CTRL_FLOW_EXCEPTIONAL_DL8_CASE_7	8	Regression	Channelizer MT	b2li	(IBP) RL35 --- Channelizer 8pipe control plane exceptional cases	12wk26
+3129	TC_MT_CHANNELIZER_CTRL_FLOW_EXCEPTIONAL_DL8_CASE_0	8	Regression	Channelizer MT	b2li	(IBP) RL35 --- Channelizer 8pipe control plane exceptional cases	12wk26
+3133	TC_MT_CHANNELIZER_CTRL_FLOW_EXCEPTIONAL_DL8_CASE_4	8	Regression	Channelizer MT	b2li	(IBP) RL35 --- Channelizer 8pipe control plane exceptional cases	12wk26
+3131	TC_MT_CHANNELIZER_CTRL_FLOW_EXCEPTIONAL_DL8_CASE_2	8	Regression	Channelizer MT	b2li	(IBP) RL35 --- Channelizer 8pipe control plane exceptional cases	12wk26
+3134	TC_MT_CHANNELIZER_CTRL_FLOW_EXCEPTIONAL_DL8_CASE_5	8	Regression	Channelizer MT	b2li	(IBP) RL35 --- Channelizer 8pipe control plane exceptional cases	12wk26
+3135	TC_MT_CHANNELIZER_CTRL_FLOW_EXCEPTIONAL_DL8_CASE_6	8	Regression	Channelizer MT	b2li	(IBP) RL35 --- Channelizer 8pipe control plane exceptional cases	12wk26
+3132	TC_MT_CHANNELIZER_CTRL_FLOW_EXCEPTIONAL_DL8_CASE_3	8	Regression	Channelizer MT	b2li	(IBP) RL35 --- Channelizer 8pipe control plane exceptional cases	12wk26
+3130	TC_MT_CHANNELIZER_CTRL_FLOW_EXCEPTIONAL_DL8_CASE_1	8	Regression	Channelizer MT	b2li	(IBP) RL35 --- Channelizer 8pipe control plane exceptional cases	12wk26
+3144	TC_MT_CHANNELIZER_RACH_2PIPE_PERCORE_F2_10M_CASE_35	2	Regression	Channelizer MT	b2li	(IBP) RL35 --- 10MHz Channelizer: prach part	12wk28
+3167	TC_MT_CHANNELIZER_PUCH_2PIPE_PERCORE_10M_CASE	2	Regression	Channelizer MT	b2li	(IBP) RL35 --- 10MHz Channelizer: prach part	12wk31
+3143	TC_MT_CHANNELIZER_RACH_8PIPE_PERCORE_F1_10M_CASE_25	8	Regression	Channelizer MT	b2li	(IBP) RL35 --- 10MHz Channelizer: prach part	12wk28
+3142	TC_MT_CHANNELIZER_RACH_4PIPE_PERCORE_F1_10M_CASE_25	4	Regression	Channelizer MT	b2li	(IBP) RL35 --- 10MHz Channelizer: prach part	12wk28
+3141	TC_MT_CHANNELIZER_RACH_2PIPE_PERCORE_F1_10M_CASE_25	2	Regression	Channelizer MT	b2li	(IBP) RL35 --- 10MHz Channelizer: prach part	12wk28
+3140	TC_MT_CHANNELIZER_RACH_8PIPE_PERCORE_F0_10M_CASE_12	8	Regression	Channelizer MT	b2li	(IBP) RL35 --- 10MHz Channelizer: prach part	12wk28
+3139	TC_MT_CHANNELIZER_RACH_4PIPE_PERCORE_F0_10M_CASE_12	4	Regression	Channelizer MT	b2li	(IBP) RL35 --- 10MHz Channelizer: prach part	12wk28
+3138	TC_MT_CHANNELIZER_RACH_2PIPE_PERCORE_F0_10M_CASE_12	2	Regression	Channelizer MT	b2li	(IBP) RL35 --- 10MHz Channelizer: prach part	12wk28
+3145	TC_MT_CHANNELIZER_RACH_4PIPE_PERCORE_F2_10M_CASE_35	4	Regression	Channelizer MT	b2li	(IBP) RL35 --- 10MHz Channelizer: prach part	12wk28
+3146	TC_MT_CHANNELIZER_RACH_8PIPE_PERCORE_F2_10M_CASE_35	8	Regression	Channelizer MT	b2li	(IBP) RL35 --- 10MHz Channelizer: prach part	12wk28
+3147	TC_MT_CHANNELIZER_RACH_2PIPE_PERCORE_F4_10M_CASE_52	2	Regression	Channelizer MT	b2li	(IBP) RL35 --- 10MHz Channelizer: prach part	12wk28
+3178	TC_MT_CHANNELIZER_CALI_8PIPE_PERCORE_10M_CASE	8	Regression	Channelizer MT	b2li	(IBP) RL35 --- 10MHz Channelizer: prach part	12wk31
+3177	TC_MT_CHANNELIZER_PUCCH_8PIPE_PERCORE_10M_CASE	8	Regression	Channelizer MT	b2li	(IBP) RL35 --- 10MHz Channelizer: prach part	12wk31
+3176	TC_MT_CHANNELIZER_SRS_4PIPE_PERCORE_10M_CASE	4	Regression	Channelizer MT	b2li	(IBP) RL35 --- 10MHz Channelizer: prach part	12wk31
+3175	TC_MT_CHANNELIZER_SNAPSHOT_4PIPE_10M_CASE_Ring	4	Regression	Channelizer MT	b2li	(IBP) RL35 --- 10MHz Channelizer: prach part	12wk31
+3168	TC_MT_CHANNELIZER_SRS_2PIPE_PERCORE_10M_CASE	2	Regression	Channelizer MT	b2li	(IBP) RL35 --- 10MHz Channelizer: prach part	12wk31
+3169	TC_MT_CHANNELIZER_SNAPSHOT_2PIPE_10M_CASE	2	Regression	Channelizer MT	b2li	(IBP) RL35 --- 10MHz Channelizer: prach part	12wk31
+3174	TC_MT_CHANNELIZER_SNAPSHOT_4PIPE_10M_CASE	4	Regression	Channelizer MT	b2li	(IBP) RL35 --- 10MHz Channelizer: prach part	12wk31
+3171	TC_MT_CHANNELIZER_CALI_4PIPE_PERCORE_10M_CASE	4	Regression	Channelizer MT	b2li	(IBP) RL35 --- 10MHz Channelizer: prach part	12wk31
+3172	TC_MT_CHANNELIZER_PUCCH_4PIPE_10M_CASE	4	Regression	Channelizer MT	b2li	(IBP) RL35 --- 10MHz Channelizer: prach part	12wk31
+3179	TC_MT_CHANNELIZER_PUSCH_8PIPE_PERCORE_10M_CASE	8	Regression	Channelizer MT	b2li	(IBP) RL35 --- 10MHz Channelizer: prach part	12wk31
+3170	TC_MT_CHANNELIZER_SNAPSHOT_2PIPE_10M_CASE_Ring	2	Regression	Channelizer MT	b2li	(IBP) RL35 --- 10MHz Channelizer: prach part	12wk31
+3180	TC_MT_CHANNELIZER_SRS_8PIPE_PERCORE_10M_CASE	8	Regression	Channelizer MT	b2li	(IBP) RL35 --- 10MHz Channelizer: prach part	12wk31
+3148	TC_MT_CHANNELIZER_RACH_4PIPE_PERCORE_F4_10M_CASE_52	4	Regression	Channelizer MT	b2li	(IBP) RL35 --- 10MHz Channelizer: prach part	12wk28
+3149	TC_MT_CHANNELIZER_RACH_8PIPE_PERCORE_F4_10M_CASE_52	8	Regression	Channelizer MT	b2li	(IBP) RL35 --- 10MHz Channelizer: prach part	12wk28
+3150	TC_MT_CHANNELIZER_RACH_2PIPE_PERCORE_F4_10M_CASE_57	2	Regression	Channelizer MT	b2li	(IBP) RL35 --- 10MHz Channelizer: prach part	12wk28
+3151	TC_MT_CHANNELIZER_RACH_4PIPE_PERCORE_F4_10M_CASE_57	4	Regression	Channelizer MT	b2li	(IBP) RL35 --- 10MHz Channelizer: prach part	12wk28
+3152	TC_MT_CHANNELIZER_RACH_8PIPE_PERCORE_F4_10M_CASE_57	8	Regression	Channelizer MT	b2li	(IBP) RL35 --- 10MHz Channelizer: prach part	12wk28
+3173	TC_MT_CHANNELIZER_PUSCH_4PIPE_10M_CASE	4	Regression	Channelizer MT	b2li	(IBP) RL35 --- 10MHz Channelizer: prach part	12wk31
+3182	TC_MT_CHANNELIZER_SNAPSHOT_8PIPE_10M_CASE_Ring	8	Regression	Channelizer MT	b2li	(IBP) RL35 --- 10MHz Channelizer: prach part	12wk31
+3181	TC_MT_CHANNELIZER_SNAPSHOT_8PIPE_10M_CASE	8	Regression	Channelizer MT	b2li	(IBP) RL35 --- 10MHz Channelizer: prach part	12wk31
+3125	TC_MT_TX_CALIBRATION_RECEIVER_ONESHOT_8PIPE_20MHZ_002	8	Regression	Calibration MT	lxi	Simulation -- One-shot TX calibration (phase2)	12wk29
+3124	TC_MT_TX_CALIBRATION_RECEIVER_ONESHOT_8PIPE_20MHZ_001	8	Regression	Calibration MT	lxi	Simulation -- One-shot TX calibration (phase2)	12wk29
+3126	TM510_Calibration_ONESHOT_TX_20MHZ_8PIPE	8	Regression	Calibration SCT	lxi	Simulation -- One-shot TX calibration (phase2)	12wk29
+3228	TM223_5UE_FO_8PIPE	8	Regression	Pucch SCT	l86zhang	(IBP) RL35 - Align PUCCH FO estimation with 4GMax	12wk39
+3227	TM223_5UE_FO_4PIPE	4	Regression	Pucch SCT	l86zhang	(IBP) RL35 - Align PUCCH FO estimation with 4GMax	12wk39
+3186	TC_MT_CHANNELIZER_SNAPSHOT_2PIPE_15M_CASE_Ring	2	Regression	Channelizer MT	b2li	(IBP) RL35 --- 15MHz Channelizer part (PUCH)	12wk33
+3190	TC_MT_CHANNELIZER_SNAPSHOT_4PIPE_15M_CASE_Ring	4	Regression	Channelizer MT	b2li	(IBP) RL35 --- 15MHz Channelizer part (PUCH)	12wk34
+3189	TC_MT_CHANNELIZER_SNAPSHOT_4PIPE_15M_CASE	4	Regression	Channelizer MT	b2li	(IBP) RL35 --- 15MHz Channelizer part (PUCH)	12wk34
+3196	TC_MT_CHANNELIZER_SNAPSHOT_8PIPE_15M_CASE_Ring	8	Regression	Channelizer MT	b2li	(IBP) RL35 --- 15MHz Channelizer part (PUCH)	12wk34
+3195	TC_MT_CHANNELIZER_SNAPSHOT_8PIPE_15M_CASE	8	Regression	Channelizer MT	b2li	(IBP) RL35 --- 15MHz Channelizer part (PUCH)	12wk34
+3194	TC_MT_CHANNELIZER_SRS_8PIPE_PERCORE_15M_CASE	8	Regression	Channelizer MT	b2li	(IBP) RL35 --- 15MHz Channelizer part (PUCH)	12wk34
+3193	TC_MT_CHANNELIZER_PUSCH_8PIPE_PERCORE_15M_CASE	8	Regression	Channelizer MT	b2li	(IBP) RL35 --- 15MHz Channelizer part (PUCH)	12wk34
+3192	TC_MT_CHANNELIZER_PUCCH_8PIPE_PERCORE_15M_CASE	8	Regression	Channelizer MT	b2li	(IBP) RL35 --- 15MHz Channelizer part (PUCH)	12wk34
+3191	TC_MT_CHANNELIZER_SRS_4PIPE_PERCORE_15M_CASE	4	Regression	Channelizer MT	b2li	(IBP) RL35 --- 15MHz Channelizer part (PUCH)	12wk34
+3188	TC_MT_CHANNELIZER_PUSCH_4PIPE_15M_CASE	4	Regression	Channelizer MT	b2li	(IBP) RL35 --- 15MHz Channelizer part (PUCH)	12wk34
+3187	TC_MT_CHANNELIZER_PUCCH_4PIPE_15M_CASE	4	Regression	Channelizer MT	b2li	(IBP) RL35 --- 15MHz Channelizer part (PUCH)	12wk34
+3185	TC_MT_CHANNELIZER_SNAPSHOT_2PIPE_15M_CASE	2	Regression	Channelizer MT	b2li	(IBP) RL35 --- 15MHz Channelizer part (PUCH)	12wk33
+3184	TC_MT_CHANNELIZER_SRS_2PIPE_PERCORE_15M_CASE	2	Regression	Channelizer MT	b2li	(IBP) RL35 --- 15MHz Channelizer part (PUCH)	12wk33
+3183	TC_MT_CHANNELIZER_PUCH_2PIPE_PERCORE_15M_CASE	2	Regression	Channelizer MT	b2li	(IBP) RL35 --- 15MHz Channelizer part (PUCH)	12wk33
+3432	TM150_Pusch_SupperCell_IRC_6Ant_4PIPE	4	Regression	Pusch SCT	yalqu	(IBP)RL35 -- Implement 2pipe IRC in 4pipe deployment [20M&10M]	13wk18
+3433	TM150_Pusch_SupperCell_IRC_10M_6Ant_4PIPE	4	Regression	Pusch SCT	yalqu	(IBP)RL35 -- Implement 2pipe IRC in 4pipe deployment [20M&10M]	13wk18
+3234	TM1209_UDconf1_20M_2PIPE	2	Regression	Combined SCT	l86zhang	(IBP) RL35 -- Add RL35 C&P test cases, step2 - srs	12wk39
+3237	TM1209_UDconf2_20M_2PIPE	2	Regression	Combined SCT	l5zhou	(IBP) RL35 -- Add RL35 C&P test cases, step2 - srs	12wk39
+3235	TM1209_UDconf1_20M_4PIPE	4	Regression	Combined SCT	l5zhou	(IBP) RL35 -- Add RL35 C&P test cases, step2 - srs	12wk39
+3236	TM1209_UDconf1_20M_8PIPE	8	Regression	Combined SCT	l5zhou	(IBP) RL35 -- Add RL35 C&P test cases, step2 - srs	12wk39
+3238	TM1209_UDconf2_20M_4PIPE	4	Regression	Combined SCT	l5zhou	(IBP) RL35 -- Add RL35 C&P test cases, step2 - srs	12wk39
+3239	TM1209_UDconf2_20M_8PIPE	8	Regression	Combined SCT	l5zhou	(IBP) RL35 -- Add RL35 C&P test cases, step2 - srs	12wk39
+3212	TC_MT_PUCCH_RECEIVER_1ueEVA5_4PIPE	4	Regression	PucchReceiver MT	l86zhang	(IBP) RL35 -- All domain MT case run continuously without reset -- PUCCH part	12wk35
+3213	TC_MT_PUCCH_RECEIVER_1ueEVA70_4PIPE	4	Regression	PucchReceiver MT	l86zhang	(IBP) RL35 -- All domain MT case run continuously without reset -- PUCCH part	12wk35
+3214	TC_MT_PUCCH_RECEIVER_1ueETU300_4PIPE	4	Regression	PucchReceiver MT	l86zhang	(IBP) RL35 -- All domain MT case run continuously without reset -- PUCCH part	12wk35
+3216	TC_MT_PUCCH_RECEIVER_15ueChannelizer_4PIPE	4	Regression	PucchReceiver MT	l86zhang	(IBP) RL35 -- All domain MT case run continuously without reset -- PUCCH part	12wk35
+3218	TC_MT_PUCCH_RECEIVER_5ueMeasure_4PIPE	4	Regression	PucchReceiver MT	l86zhang	(IBP) RL35 -- All domain MT case run continuously without reset -- PUCCH part	12wk35
+3219	TC_MT_PUCCH_RECEIVER_15ueMeasure_4PIPE	4	Regression	PucchReceiver MT	l86zhang	(IBP) RL35 -- All domain MT case run continuously without reset -- PUCCH part	12wk35
+3220	TC_MT_PUCCH_RECEIVER_15ueDRXCQI_4PIPE	4	Regression	PucchReceiver MT	l86zhang	(IBP) RL35 -- All domain MT case run continuously without reset -- PUCCH part	12wk35
+3221	TC_MT_PUCCH_RECEIVER_5ueSupercellCuID0_4PIPE	4	Regression	PucchReceiver MT	l86zhang	(IBP) RL35 -- All domain MT case run continuously without reset -- PUCCH part	12wk35
+3222	TC_MT_PUCCH_RECEIVER_5ueSupercellCuID1_4PIPE	4	Regression	PucchReceiver MT	l86zhang	(IBP) RL35 -- All domain MT case run continuously without reset -- PUCCH part	12wk35
+3223	TC_MT_PUCCH_RECEIVER_5ueSupercellMixCuID_4PIPE	4	Regression	PucchReceiver MT	l86zhang	(IBP) RL35 -- All domain MT case run continuously without reset -- PUCCH part	12wk35
+3211	TC_MT_PUCCH_RECEIVER_1ueFormat2b_4PIPE	4	Regression	PucchReceiver MT	l86zhang	(IBP) RL35 -- All domain MT case run continuously without reset -- PUCCH part	12wk35
+3210	TC_MT_PUCCH_RECEIVER_1ueFormat2_4PIPE	4	Regression	PucchReceiver MT	l86zhang	(IBP) RL35 -- All domain MT case run continuously without reset -- PUCCH part	12wk35
+3209	TC_MT_PUCCH_RECEIVER_1ueEPA5_4PIPE	4	Regression	PucchReceiver MT	l86zhang	(IBP) RL35 -- All domain MT case run continuously without reset -- PUCCH part	12wk35
+3208	TC_MT_PUCCH_RECEIVER_5ue_4PIPE	4	Regression	PucchReceiver MT	l86zhang	(IBP) RL35 -- All domain MT case run continuously without reset -- PUCCH part	12wk35
+3217	TC_MT_PUCCH_RECEIVER_5ueSimuSRS_4PIPE	4	Regression	PucchReceiver MT	l86zhang	(IBP) RL35 -- All domain MT case run continuously without reset -- PUCCH part	12wk35
+3225	TC_MT_PUCCH_RECEIVER_5ue10M_2PIPE	2	Regression	PucchReceiver MT	l86zhang	(IBP) RL35 -- 10M bandwidth development -- PUCCH part	12wk35
+3224	TC_MT_PUCCH_RECEIVER_5ue10M_8PIPE	8	Regression	PucchReceiver MT	l86zhang	(IBP) RL35 -- 10M bandwidth development -- PUCCH part	12wk35
+3226	TM211_5UE_10M_NORMALMODE_4PIPE	4	Regression	Pucch SCT	l86zhang	(IBP) RL35 -- 10M bandwidth development -- PUCCH part	12wk35
+3215	TC_MT_PUCCH_RECEIVER_5ue10M_4PIPE	4	Regression	PucchReceiver MT	l86zhang	(IBP) RL35 -- 10M bandwidth development -- PUCCH part	12wk35
+3154	TC_MT_PRACH_CHANNELIZER_RECEIVER_F0_8PIPE_10MHZ	8	Regression	PrachReceiver MT	qifeng	(IBP) RL35 -- 10M bandwidth development -- PRACH part	12wk34
+3162	TM307_Prach_8PIPE	8	Regression	Prach SCT	qifeng	(IBP) RL35 -- 10M bandwidth development -- PRACH part	12wk34
+3164	TM306_Prach_2PIPE	2	Regression	Prach SCT	qifeng	(IBP) RL35 -- 10M bandwidth development -- PRACH part	12wk34
+3163	TM307_Prach_2PIPE	2	Regression	Prach SCT	qifeng	(IBP) RL35 -- 10M bandwidth development -- PRACH part	12wk34
+3165	TM322_Prach_2PIPE	2	Regression	Prach SCT	qifeng	(IBP) RL35 -- 10M bandwidth development -- PRACH part	12wk34
+3166	TM322_Prach_8PIPE	8	Regression	Prach SCT	qifeng	(IBP) RL35 -- 10M bandwidth development -- PRACH part	12wk34
+3153	TC_MT_PRACH_CHANNELIZER_RECEIVER_F0_10MHZ	2	Regression	PrachReceiver MT	qifeng	(IBP) RL35 -- 10M bandwidth development -- PRACH part	12wk34
+3158	TC_MT_PRACH_CHANNELIZER_RECEIVER_F4_8PIPE_10MHZ	8	Regression	PrachReceiver MT	qifeng	(IBP) RL35 -- 10M bandwidth development -- PRACH part	12wk34
+3155	TC_MT_PRACH_CHANNELIZER_RECEIVER_F1_10MHZ	2	Regression	PrachReceiver MT	qifeng	(IBP) RL35 -- 10M bandwidth development -- PRACH part	12wk34
+3161	TM306_Prach_8PIPE	8	Regression	Prach SCT	qifeng	(IBP) RL35 -- 10M bandwidth development -- PRACH part	12wk34
+3203	TM522_Calibration_ONESHOT_TX_10MHZ_8PIPE	8	Regression	Calibration SCT	lxi	(IBP) RL35 -- 10M bandwidth development -- PRACH part	12wk35
+3202	TM521_Calibration_ONESHOT_TX_10MHZ_8PIPE	8	Regression	Calibration SCT	lxi	(IBP) RL35 -- 10M bandwidth development -- PRACH part	12wk35
+3201	TM512_Calibration_ONESHOT_TX_20MHZ_8PIPE	8	Regression	Calibration SCT	lxi	(IBP) RL35 -- 10M bandwidth development -- PRACH part	12wk35
+3200	TM511_Calibration_ONESHOT_TX_20MHZ_8PIPE	8	Regression	Calibration SCT	lxi	(IBP) RL35 -- 10M bandwidth development -- PRACH part	12wk35
+3157	TC_MT_PRACH_CHANNELIZER_RECEIVER_F4_10MHZ	2	Regression	PrachReceiver MT	qifeng	(IBP) RL35 -- 10M bandwidth development -- PRACH part	12wk34
+3159	TM304_Prach_4PIPE	4	Regression	Prach SCT	qifeng	(IBP) RL35 -- 10M bandwidth development -- PRACH part	12wk34
+3160	TM304_Prach_8PIPE	8	Regression	Prach SCT	qifeng	(IBP) RL35 -- 10M bandwidth development -- PRACH part	12wk34
+3204	TC_MT_TX_CALIBRATION_RECEIVER_ONESHOT_8PIPE_10MHZ_001	8	Regression	Calibration MT	lxi	(IBP) RL35 -- 10M bandwidth development -- PRACH part	12wk35
+3156	TC_MT_PRACH_CHANNELIZER_RECEIVER_F1_8PIPE_10MHZ	8	Regression	PrachReceiver MT	qifeng	(IBP) RL35 -- 10M bandwidth development -- PRACH part	12wk34
+3244	TM605_8PIPE	8	Regression	Srs SCT	l5zhou	(IBP) RL35 -- 10M bandwidth development -- SRS part	12wk35
+3207	TM1115_10M_SuperCell_Mixed_8Ant_4PIPE	4	Regression	Combined SCT	yalqu	(IBP) RL35 -- 10M bandwidth development -- Common part	12wk35

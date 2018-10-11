@@ -1,0 +1,176 @@
+TestsuiteName: Nyquist2/TestCaseList/MT_2PIPE_GROUP.txt
+TestcaseName: TC_MT_2PIPE_CASE
+SubtestCaseName: TC_MT_PUSCH_2PIPE_RECEIVER_REQ_001
+SubtestCaseResult: 
+SubtestCaseReason: 
+SubtestCaseTimeStamp: 
+SubtestCaseName: TC_MT_PUSCH_2PIPE_RECEIVER_REQ_002
+SubtestCaseResult: 
+SubtestCaseReason: 
+SubtestCaseTimeStamp: 
+SubtestCaseName: TC_MT_PUSCH_2PIPE_RECEIVER_REQ_003
+SubtestCaseResult: 
+SubtestCaseReason: 
+SubtestCaseTimeStamp: 
+SubtestCaseName: TC_MT_PUSCH_2PIPE_RECEIVER_REQ_004
+SubtestCaseResult: 
+SubtestCaseReason: 
+SubtestCaseTimeStamp: 
+SubtestCaseName: TC_MT_PUSCH_2PIPE_RECEIVER_REQ_005
+SubtestCaseResult: 
+SubtestCaseReason: 
+SubtestCaseTimeStamp: 
+SubtestCaseName: TC_MT_PUSCH_2PIPE_RECEIVER_REQ_006
+SubtestCaseResult: 
+SubtestCaseReason: 
+SubtestCaseTimeStamp: 
+SubtestCaseName: TC_MT_PUSCH_2PIPE_RECEIVER_REQ_007
+SubtestCaseResult: 
+SubtestCaseReason: 
+SubtestCaseTimeStamp: 
+SubtestCaseName: TC_MT_PUSCH_2PIPE_CELL_DELETE_001
+SubtestCaseResult: 
+SubtestCaseReason: 
+SubtestCaseTimeStamp: 
+SubtestCaseName: TC_MT_PUSCH_2PIPE_CELL_DELETE_002
+SubtestCaseResult: 
+SubtestCaseReason: 
+SubtestCaseTimeStamp: 
+SubtestCaseName: TC_MT_PUSCH_2PIPE_CHAN_RESP_001
+SubtestCaseResult: 
+SubtestCaseReason: 
+SubtestCaseTimeStamp: 
+SubtestCaseName: TC_MT_PUSCH_2PIPE_CHAN_RESP_002
+SubtestCaseResult: 
+SubtestCaseReason: 
+SubtestCaseTimeStamp: 
+SubtestCaseName: TC_MT_PUSCH_2PIPE_CHAN_RESP_003
+SubtestCaseResult: 
+SubtestCaseReason: 
+SubtestCaseTimeStamp: 
+SubtestCaseName: TC_MT_PUSCH_2PIPE_CHAN_RESP_004
+SubtestCaseResult: 
+SubtestCaseReason: 
+SubtestCaseTimeStamp: 
+SubtestCaseName: TC_MT_PUSCH_2PIPE_CHAN_RESP_005
+SubtestCaseResult: 
+SubtestCaseReason: 
+SubtestCaseTimeStamp: 
+SubtestCaseName: TC_MT_PUSCH_2PIPE_CELL_SETUP_001
+SubtestCaseResult: 
+SubtestCaseReason: 
+SubtestCaseTimeStamp: 
+SubtestCaseName: TC_MT_PUSCH_2PIPE_CELL_SETUP_002
+SubtestCaseResult: 
+SubtestCaseReason: 
+SubtestCaseTimeStamp: 
+SubtestCaseName: TC_MT_PUSCH_2PIPE_CELL_SETUP_003
+SubtestCaseResult: 
+SubtestCaseReason: 
+SubtestCaseTimeStamp: 
+SubtestCaseName: TC_MT_PUSCH_2PIPE_CELL_SETUP_004
+SubtestCaseResult: 
+SubtestCaseReason: 
+SubtestCaseTimeStamp: 
+SubtestCaseName: TC_MT_PUSCH_2PIPE_CELL_SETUP_005
+SubtestCaseResult: 
+SubtestCaseReason: 
+SubtestCaseTimeStamp: 
+SubtestCaseName: TC_MT_PUSCH_2PIPE_CELL_SETUP_006
+SubtestCaseResult: 
+SubtestCaseReason: 
+SubtestCaseTimeStamp: 
+SubtestCaseName: TC_MT_PUSCH_2PIPE_CELL_SETUP_007
+SubtestCaseResult: 
+SubtestCaseReason: 
+SubtestCaseTimeStamp: 
+SubtestCaseName: TC_MT_PUSCH_2PIPE_CELL_SETUP_008
+SubtestCaseResult: 
+SubtestCaseReason: 
+SubtestCaseTimeStamp: 
+SubtestCaseName: TC_MT_PUSCH_DATA_FLOW_2PIPE_CASE_001
+SubtestCaseResult: 
+SubtestCaseReason: 
+SubtestCaseTimeStamp: 
+SubtestCaseName: TC_MT_PUSCH_DATA_FLOW_2PIPE_CASE_002
+SubtestCaseResult: 
+SubtestCaseReason: 
+SubtestCaseTimeStamp: 
+SubtestCaseName: TC_MT_PUSCH_DATA_FLOW_2PIPE_CASE_MultiUe001
+SubtestCaseResult: 
+SubtestCaseReason: 
+SubtestCaseTimeStamp: 
+SubtestCaseName: TC_MT_PUSCH_DATA_FLOW_2PIPE_CASE_MultiUe002
+SubtestCaseResult: 
+SubtestCaseReason: 
+SubtestCaseTimeStamp: 
+SubtestCaseName: TC_MT_PUSCH_DATA_FLOW_2PIPE_CASE_MultiUe003
+SubtestCaseResult: 
+SubtestCaseReason: 
+SubtestCaseTimeStamp: 
+SubtestCaseName: TC_MT_PUSCH_DATA_FLOW_2PIPE_CASE_Perform001
+SubtestCaseResult: 
+SubtestCaseReason: 
+SubtestCaseTimeStamp: 
+SubtestCaseName: TC_MT_PUSCH_DATA_FLOW_2PIPE_CASE_Perform002
+SubtestCaseResult: 
+SubtestCaseReason: 
+SubtestCaseTimeStamp: 
+SubtestCaseName: TC_MT_PUSCH_2PIPE_Measure_Without_Schedule
+SubtestCaseResult: 
+SubtestCaseReason: 
+SubtestCaseTimeStamp: 
+SubtestCaseName: TC_MT_PUSCH_2PIPE_Measure_With_ScheduleNoUe
+SubtestCaseResult: 
+SubtestCaseReason: 
+SubtestCaseTimeStamp: 
+SubtestCaseName: TC_MT_PUSCH_DATA_FLOW_2PIPE_CASE_MultiUe_10MHz
+SubtestCaseResult: 
+SubtestCaseReason: 
+SubtestCaseTimeStamp: 
+SubtestCaseName: TC_MT_PUSCH_DATA_FLOW_2PIPE_CASE_MultiUe_Hopping
+SubtestCaseResult: 
+SubtestCaseReason: 
+SubtestCaseTimeStamp: 
+SubtestCaseName: TC_MT_PUSCH_DATA_FLOW_2PIPE_CASE_MultiUe_10MHz_With_Chan
+SubtestCaseResult: 
+SubtestCaseReason: 
+SubtestCaseTimeStamp: 
+SubtestCaseName: TC_MT_PUSCH_DATA_FLOW_2PIPE_CASE_IRC_001
+SubtestCaseResult: 
+SubtestCaseReason: 
+SubtestCaseTimeStamp: 
+SubtestCaseName: TC_MT_PUSCH_DATA_FLOW_2PIPE_CASE_IRC_MultiUe001
+SubtestCaseResult: 
+SubtestCaseReason: 
+SubtestCaseTimeStamp: 
+SubtestCaseName: TC_MT_PUSCH_DATA_FLOW_2PIPE_CASE_IRC_10M_MultiUe001_With_Chan
+SubtestCaseResult: 
+SubtestCaseReason: 
+SubtestCaseTimeStamp: 
+TestcaseName: TC_MT_2PIPE_SRS_CASE
+SubtestCaseName: TC_MT_SRS_CASE_2PIPE_2UE
+SubtestCaseResult: 
+SubtestCaseReason: 
+SubtestCaseTimeStamp: 
+SubtestCaseName: TC_MT_SRS_CASE_2PIPE_2UE_Special
+SubtestCaseResult: 
+SubtestCaseReason: 
+SubtestCaseTimeStamp: 
+SubtestCaseName: TC_MT_SRS_CASE_2PIPE_3UE_4PRB_Special
+SubtestCaseResult: 
+SubtestCaseReason: 
+SubtestCaseTimeStamp: 
+SubtestCaseName: TC_MT_SRS_CASE_2PIPE_3UE_4PRB
+SubtestCaseResult: 
+SubtestCaseReason: 
+SubtestCaseTimeStamp: 
+SubtestCaseName: TC_MT_SRS_CASE_2PIPE_60UE_4PRB_Special
+SubtestCaseResult: 
+SubtestCaseReason: 
+SubtestCaseTimeStamp: 
+SubtestCaseName: TC_MT_SRS_CASE_2PIPE_1UE_48PRB_10M_Special
+SubtestCaseResult: 
+SubtestCaseReason: 
+SubtestCaseTimeStamp: 
+TestsuiteName: Nyquist2/TestCaseList/MT_2PIPE_GROUP.txt

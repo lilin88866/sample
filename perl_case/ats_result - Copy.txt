@@ -1,0 +1,228 @@
+******************************************************
+TestsuiteName: Nyquist2/TestCaseList/MT_2PIPE_GROUP.txt
+******************************************************
+******************************************************
+TestcaseName: TC_MT_2PIPE_CASE
+TimeStamp: 2012-10-10 11:02:58
+SubtestCaseName: TC_MT_PUSCH_2PIPE_RECEIVER_REQ_001
+CCS START: TRUE
+SubtestCaseResult: Fail
+SubtestCaseReason: Reason: ../../../../D_LTE/UlDspNy/Target/ulPhyDspNyquistCpu1.out does not exist! Bad file descriptor at CCSAdapter.pm line 382, <GEN7> line 72.
+
+SubtestCaseTimeStamp: 2012-10-10 11:03:06
+SubtestCaseName: TC_MT_PUSCH_2PIPE_RECEIVER_REQ_002
+SubtestCaseResult: Fail
+SubtestCaseReason: Reason: ../../../../D_LTE/UlDspNy/Target/ulPhyDspNyquistCpu1.out does not exist! Bad file descriptor at CCSAdapter.pm line 382, <GEN7> line 72.
+
+SubtestCaseTimeStamp: 2012-10-10 11:03:06
+SubtestCaseName: TC_MT_PUSCH_2PIPE_RECEIVER_REQ_003
+SubtestCaseResult: Fail
+SubtestCaseReason: Reason: ../../../../D_LTE/UlDspNy/Target/ulPhyDspNyquistCpu1.out does not exist! Bad file descriptor at CCSAdapter.pm line 382, <GEN7> line 72.
+
+SubtestCaseTimeStamp: 2012-10-10 11:03:06
+SubtestCaseName: TC_MT_PUSCH_2PIPE_RECEIVER_REQ_004
+SubtestCaseResult: Fail
+SubtestCaseReason: Reason: ../../../../D_LTE/UlDspNy/Target/ulPhyDspNyquistCpu1.out does not exist! Bad file descriptor at CCSAdapter.pm line 382, <GEN7> line 72.
+
+SubtestCaseTimeStamp: 2012-10-10 11:03:06
+SubtestCaseName: TC_MT_PUSCH_2PIPE_RECEIVER_REQ_005
+SubtestCaseResult: Fail
+SubtestCaseReason: Reason: ../../../../D_LTE/UlDspNy/Target/ulPhyDspNyquistCpu1.out does not exist! Bad file descriptor at CCSAdapter.pm line 382, <GEN7> line 72.
+
+SubtestCaseTimeStamp: 2012-10-10 11:03:06
+SubtestCaseName: TC_MT_PUSCH_2PIPE_RECEIVER_REQ_006
+SubtestCaseResult: Fail
+SubtestCaseReason: Reason: ../../../../D_LTE/UlDspNy/Target/ulPhyDspNyquistCpu1.out does not exist! Bad file descriptor at CCSAdapter.pm line 382, <GEN7> line 72.
+
+SubtestCaseTimeStamp: 2012-10-10 11:03:06
+SubtestCaseName: TC_MT_PUSCH_2PIPE_RECEIVER_REQ_007
+SubtestCaseResult: Fail
+SubtestCaseReason: Reason: ../../../../D_LTE/UlDspNy/Target/ulPhyDspNyquistCpu1.out does not exist! Bad file descriptor at CCSAdapter.pm line 382, <GEN7> line 72.
+
+SubtestCaseTimeStamp: 2012-10-10 11:03:06
+SubtestCaseName: TC_MT_PUSCH_2PIPE_CELL_DELETE_001
+SubtestCaseResult: Fail
+SubtestCaseReason: Reason: ../../../../D_LTE/UlDspNy/Target/ulPhyDspNyquistCpu1.out does not exist! Bad file descriptor at CCSAdapter.pm line 382, <GEN7> line 72.
+
+SubtestCaseTimeStamp: 2012-10-10 11:03:06
+SubtestCaseName: TC_MT_PUSCH_2PIPE_CELL_DELETE_002
+SubtestCaseResult: Fail
+SubtestCaseReason: Reason: ../../../../D_LTE/UlDspNy/Target/ulPhyDspNyquistCpu1.out does not exist! Bad file descriptor at CCSAdapter.pm line 382, <GEN7> line 72.
+
+SubtestCaseTimeStamp: 2012-10-10 11:03:06
+SubtestCaseName: TC_MT_PUSCH_2PIPE_CHAN_RESP_001
+SubtestCaseResult: Fail
+SubtestCaseReason: Reason: ../../../../D_LTE/UlDspNy/Target/ulPhyDspNyquistCpu1.out does not exist! Bad file descriptor at CCSAdapter.pm line 382, <GEN7> line 72.
+
+SubtestCaseTimeStamp: 2012-10-10 11:03:06
+SubtestCaseName: TC_MT_PUSCH_2PIPE_CHAN_RESP_002
+SubtestCaseResult: Fail
+SubtestCaseReason: Reason: ../../../../D_LTE/UlDspNy/Target/ulPhyDspNyquistCpu1.out does not exist! Bad file descriptor at CCSAdapter.pm line 382, <GEN7> line 72.
+
+SubtestCaseTimeStamp: 2012-10-10 11:03:06
+SubtestCaseName: TC_MT_PUSCH_2PIPE_CHAN_RESP_003
+SubtestCaseResult: Fail
+SubtestCaseReason: Reason: ../../../../D_LTE/UlDspNy/Target/ulPhyDspNyquistCpu1.out does not exist! Bad file descriptor at CCSAdapter.pm line 382, <GEN7> line 72.
+
+SubtestCaseTimeStamp: 2012-10-10 11:03:06
+SubtestCaseName: TC_MT_PUSCH_2PIPE_CHAN_RESP_004
+SubtestCaseResult: Fail
+SubtestCaseReason: Reason: ../../../../D_LTE/UlDspNy/Target/ulPhyDspNyquistCpu1.out does not exist! Bad file descriptor at CCSAdapter.pm line 382, <GEN7> line 72.
+
+SubtestCaseTimeStamp: 2012-10-10 11:03:06
+SubtestCaseName: TC_MT_PUSCH_2PIPE_CHAN_RESP_005
+SubtestCaseResult: Fail
+SubtestCaseReason: Reason: ../../../../D_LTE/UlDspNy/Target/ulPhyDspNyquistCpu1.out does not exist! Bad file descriptor at CCSAdapter.pm line 382, <GEN7> line 72.
+
+SubtestCaseTimeStamp: 2012-10-10 11:03:06
+SubtestCaseName: TC_MT_PUSCH_2PIPE_CELL_SETUP_001
+SubtestCaseResult: Fail
+SubtestCaseReason: Reason: ../../../../D_LTE/UlDspNy/Target/ulPhyDspNyquistCpu1.out does not exist! Bad file descriptor at CCSAdapter.pm line 382, <GEN7> line 72.
+
+SubtestCaseTimeStamp: 2012-10-10 11:03:06
+SubtestCaseName: TC_MT_PUSCH_2PIPE_CELL_SETUP_002
+SubtestCaseResult: Fail
+SubtestCaseReason: Reason: ../../../../D_LTE/UlDspNy/Target/ulPhyDspNyquistCpu1.out does not exist! Bad file descriptor at CCSAdapter.pm line 382, <GEN7> line 72.
+
+SubtestCaseTimeStamp: 2012-10-10 11:03:06
+SubtestCaseName: TC_MT_PUSCH_2PIPE_CELL_SETUP_003
+SubtestCaseResult: Fail
+SubtestCaseReason: Reason: ../../../../D_LTE/UlDspNy/Target/ulPhyDspNyquistCpu1.out does not exist! Bad file descriptor at CCSAdapter.pm line 382, <GEN7> line 72.
+
+SubtestCaseTimeStamp: 2012-10-10 11:03:06
+SubtestCaseName: TC_MT_PUSCH_2PIPE_CELL_SETUP_004
+SubtestCaseResult: Fail
+SubtestCaseReason: Reason: ../../../../D_LTE/UlDspNy/Target/ulPhyDspNyquistCpu1.out does not exist! Bad file descriptor at CCSAdapter.pm line 382, <GEN7> line 72.
+
+SubtestCaseTimeStamp: 2012-10-10 11:03:06
+SubtestCaseName: TC_MT_PUSCH_2PIPE_CELL_SETUP_005
+SubtestCaseResult: Fail
+SubtestCaseReason: Reason: ../../../../D_LTE/UlDspNy/Target/ulPhyDspNyquistCpu1.out does not exist! Bad file descriptor at CCSAdapter.pm line 382, <GEN7> line 72.
+
+SubtestCaseTimeStamp: 2012-10-10 11:03:06
+SubtestCaseName: TC_MT_PUSCH_2PIPE_CELL_SETUP_006
+SubtestCaseResult: Fail
+SubtestCaseReason: Reason: ../../../../D_LTE/UlDspNy/Target/ulPhyDspNyquistCpu1.out does not exist! Bad file descriptor at CCSAdapter.pm line 382, <GEN7> line 72.
+
+SubtestCaseTimeStamp: 2012-10-10 11:03:06
+SubtestCaseName: TC_MT_PUSCH_2PIPE_CELL_SETUP_007
+SubtestCaseResult: Fail
+SubtestCaseReason: Reason: ../../../../D_LTE/UlDspNy/Target/ulPhyDspNyquistCpu1.out does not exist! Bad file descriptor at CCSAdapter.pm line 382, <GEN7> line 72.
+
+SubtestCaseTimeStamp: 2012-10-10 11:03:06
+SubtestCaseName: TC_MT_PUSCH_2PIPE_CELL_SETUP_008
+SubtestCaseResult: Fail
+SubtestCaseReason: Reason: ../../../../D_LTE/UlDspNy/Target/ulPhyDspNyquistCpu1.out does not exist! Bad file descriptor at CCSAdapter.pm line 382, <GEN7> line 72.
+
+SubtestCaseTimeStamp: 2012-10-10 11:03:06
+SubtestCaseName: TC_MT_PUSCH_DATA_FLOW_2PIPE_CASE_001
+SubtestCaseResult: Fail
+SubtestCaseReason: Reason: ../../../../D_LTE/UlDspNy/Target/ulPhyDspNyquistCpu1.out does not exist! Bad file descriptor at CCSAdapter.pm line 382, <GEN7> line 72.
+
+SubtestCaseTimeStamp: 2012-10-10 11:03:06
+SubtestCaseName: TC_MT_PUSCH_DATA_FLOW_2PIPE_CASE_002
+SubtestCaseResult: Fail
+SubtestCaseReason: Reason: ../../../../D_LTE/UlDspNy/Target/ulPhyDspNyquistCpu1.out does not exist! Bad file descriptor at CCSAdapter.pm line 382, <GEN7> line 72.
+
+SubtestCaseTimeStamp: 2012-10-10 11:03:06
+SubtestCaseName: TC_MT_PUSCH_DATA_FLOW_2PIPE_CASE_MultiUe001
+SubtestCaseResult: Fail
+SubtestCaseReason: Reason: ../../../../D_LTE/UlDspNy/Target/ulPhyDspNyquistCpu1.out does not exist! Bad file descriptor at CCSAdapter.pm line 382, <GEN7> line 72.
+
+SubtestCaseTimeStamp: 2012-10-10 11:03:06
+SubtestCaseName: TC_MT_PUSCH_DATA_FLOW_2PIPE_CASE_MultiUe002
+SubtestCaseResult: Fail
+SubtestCaseReason: Reason: ../../../../D_LTE/UlDspNy/Target/ulPhyDspNyquistCpu1.out does not exist! Bad file descriptor at CCSAdapter.pm line 382, <GEN7> line 72.
+
+SubtestCaseTimeStamp: 2012-10-10 11:03:06
+SubtestCaseName: TC_MT_PUSCH_DATA_FLOW_2PIPE_CASE_MultiUe003
+SubtestCaseResult: Fail
+SubtestCaseReason: Reason: ../../../../D_LTE/UlDspNy/Target/ulPhyDspNyquistCpu1.out does not exist! Bad file descriptor at CCSAdapter.pm line 382, <GEN7> line 72.
+
+SubtestCaseTimeStamp: 2012-10-10 11:03:06
+SubtestCaseName: TC_MT_PUSCH_DATA_FLOW_2PIPE_CASE_Perform001
+SubtestCaseResult: Fail
+SubtestCaseReason: Reason: ../../../../D_LTE/UlDspNy/Target/ulPhyDspNyquistCpu1.out does not exist! Bad file descriptor at CCSAdapter.pm line 382, <GEN7> line 72.
+
+SubtestCaseTimeStamp: 2012-10-10 11:03:06
+SubtestCaseName: TC_MT_PUSCH_DATA_FLOW_2PIPE_CASE_Perform002
+SubtestCaseResult: Fail
+SubtestCaseReason: Reason: ../../../../D_LTE/UlDspNy/Target/ulPhyDspNyquistCpu1.out does not exist! Bad file descriptor at CCSAdapter.pm line 382, <GEN7> line 72.
+
+SubtestCaseTimeStamp: 2012-10-10 11:03:06
+SubtestCaseName: TC_MT_PUSCH_2PIPE_Measure_Without_Schedule
+SubtestCaseResult: Fail
+SubtestCaseReason: Reason: ../../../../D_LTE/UlDspNy/Target/ulPhyDspNyquistCpu1.out does not exist! Bad file descriptor at CCSAdapter.pm line 382, <GEN7> line 72.
+
+SubtestCaseTimeStamp: 2012-10-10 11:03:06
+SubtestCaseName: TC_MT_PUSCH_2PIPE_Measure_With_ScheduleNoUe
+SubtestCaseResult: Fail
+SubtestCaseReason: Reason: ../../../../D_LTE/UlDspNy/Target/ulPhyDspNyquistCpu1.out does not exist! Bad file descriptor at CCSAdapter.pm line 382, <GEN7> line 72.
+
+SubtestCaseTimeStamp: 2012-10-10 11:03:06
+SubtestCaseName: TC_MT_PUSCH_DATA_FLOW_2PIPE_CASE_MultiUe_10MHz
+SubtestCaseResult: Fail
+SubtestCaseReason: Reason: ../../../../D_LTE/UlDspNy/Target/ulPhyDspNyquistCpu1.out does not exist! Bad file descriptor at CCSAdapter.pm line 382, <GEN7> line 72.
+
+SubtestCaseTimeStamp: 2012-10-10 11:03:06
+SubtestCaseName: TC_MT_PUSCH_DATA_FLOW_2PIPE_CASE_MultiUe_Hopping
+SubtestCaseResult: Fail
+SubtestCaseReason: Reason: ../../../../D_LTE/UlDspNy/Target/ulPhyDspNyquistCpu1.out does not exist! Bad file descriptor at CCSAdapter.pm line 382, <GEN7> line 72.
+
+SubtestCaseTimeStamp: 2012-10-10 11:03:06
+SubtestCaseName: TC_MT_PUSCH_DATA_FLOW_2PIPE_CASE_MultiUe_10MHz_With_Chan
+SubtestCaseResult: Fail
+SubtestCaseReason: Reason: ../../../../D_LTE/UlDspNy/Target/ulPhyDspNyquistCpu1.out does not exist! Bad file descriptor at CCSAdapter.pm line 382, <GEN7> line 72.
+
+SubtestCaseTimeStamp: 2012-10-10 11:03:06
+SubtestCaseName: TC_MT_PUSCH_DATA_FLOW_2PIPE_CASE_IRC_001
+SubtestCaseResult: Fail
+SubtestCaseReason: Reason: ../../../../D_LTE/UlDspNy/Target/ulPhyDspNyquistCpu1.out does not exist! Bad file descriptor at CCSAdapter.pm line 382, <GEN7> line 72.
+
+SubtestCaseTimeStamp: 2012-10-10 11:03:06
+SubtestCaseName: TC_MT_PUSCH_DATA_FLOW_2PIPE_CASE_IRC_MultiUe001
+SubtestCaseResult: Fail
+SubtestCaseReason: Reason: ../../../../D_LTE/UlDspNy/Target/ulPhyDspNyquistCpu1.out does not exist! Bad file descriptor at CCSAdapter.pm line 382, <GEN7> line 72.
+
+SubtestCaseTimeStamp: 2012-10-10 11:03:06
+SubtestCaseName: TC_MT_PUSCH_DATA_FLOW_2PIPE_CASE_IRC_10M_MultiUe001_With_Chan
+SubtestCaseResult: Fail
+SubtestCaseReason: Reason: ../../../../D_LTE/UlDspNy/Target/ulPhyDspNyquistCpu1.out does not exist! Bad file descriptor at CCSAdapter.pm line 382, <GEN7> line 72.
+
+SubtestCaseTimeStamp: 2012-10-10 11:03:06
+SubtestCaseName: TC_MT_SRS_CASE_2PIPE_2UE
+SubtestCaseResult: Fail
+SubtestCaseReason: Reason: ../../../../D_LTE/UlDspNy/Target/ulPhyDspNyquistCpu1.out does not exist! Bad file descriptor at CCSAdapter.pm line 382, <GEN7> line 72.
+
+SubtestCaseTimeStamp: 2012-10-10 11:03:06
+SubtestCaseName: TC_MT_SRS_CASE_2PIPE_2UE_Special
+SubtestCaseResult: Fail
+SubtestCaseReason: Reason: ../../../../D_LTE/UlDspNy/Target/ulPhyDspNyquistCpu1.out does not exist! Bad file descriptor at CCSAdapter.pm line 382, <GEN7> line 72.
+
+SubtestCaseTimeStamp: 2012-10-10 11:03:06
+SubtestCaseName: TC_MT_SRS_CASE_2PIPE_3UE_4PRB_Special
+SubtestCaseResult: Fail
+SubtestCaseReason: Reason: ../../../../D_LTE/UlDspNy/Target/ulPhyDspNyquistCpu1.out does not exist! Bad file descriptor at CCSAdapter.pm line 382, <GEN7> line 72.
+
+SubtestCaseTimeStamp: 2012-10-10 11:03:06
+SubtestCaseName: TC_MT_SRS_CASE_2PIPE_3UE_4PRB
+SubtestCaseResult: Fail
+SubtestCaseReason: Reason: ../../../../D_LTE/UlDspNy/Target/ulPhyDspNyquistCpu1.out does not exist! Bad file descriptor at CCSAdapter.pm line 382, <GEN7> line 72.
+
+SubtestCaseTimeStamp: 2012-10-10 11:03:06
+SubtestCaseName: TC_MT_SRS_CASE_2PIPE_60UE_4PRB_Special
+SubtestCaseResult: Fail
+SubtestCaseReason: Reason: ../../../../D_LTE/UlDspNy/Target/ulPhyDspNyquistCpu1.out does not exist! Bad file descriptor at CCSAdapter.pm line 382, <GEN7> line 72.
+
+SubtestCaseTimeStamp: 2012-10-10 11:03:06
+SubtestCaseName: TC_MT_SRS_CASE_2PIPE_1UE_48PRB_10M_Special
+SubtestCaseResult: Fail
+SubtestCaseReason: Reason: ../../../../D_LTE/UlDspNy/Target/ulPhyDspNyquistCpu1.out does not exist! Bad file descriptor at CCSAdapter.pm line 382, <GEN7> line 72.
+
+SubtestCaseTimeStamp: 2012-10-10 11:03:06
+TestcaseResult: Fail
+******************************************************
+
+******************************************************
+TestsuiteEnd
+******************************************************
